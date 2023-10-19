@@ -4,7 +4,7 @@ public class Intervention {
     private String description;
     private String parc;
     private String arrondissement;
-    private int nbrIntervention;
+
 
 
     public String getDate() {
@@ -27,17 +27,13 @@ public class Intervention {
         return description;
     }
 
-
-    public int getNbrIntervention() {
-        return nbrIntervention;
-    }
-    public Intervention( String date,String heure,String parc,String arrondissement,String description,int nbrIntervention){
+    public Intervention( String date,String heure,String parc,String arrondissement,String description){
         this.date=date;
         this.heure=heure;
         this.parc=parc;
         this.arrondissement=arrondissement;
         this.description=description;
-        this.nbrIntervention=nbrIntervention;
+
     }
 
 }
