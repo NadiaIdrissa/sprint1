@@ -1,7 +1,10 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Scanner;
+import com.csvreader.CsvReader;
 
 /**
  * Cette classe sert a aller extraire les donnees contenues dans un fichier CSV  afin d'en modeliser les
@@ -10,8 +13,11 @@ import java.util.Scanner;
 public class CsvParser {
     /**
      * Cette methode va creer une liste qui va extraire les donnees contenues dans le fichier CSV par intervention
+     *
      * @param nomFichier
      * @return Une liste de toutes les interventions parvenues et enregistrees dans le fichier CSV
+     *
+     * pourquoi une liste et non juste le fichier extrait ???
      */
     public static ArrayList<String> extraireDonnees(String nomFichier) throws FileNotFoundException {
         ArrayList<String> donnees = new ArrayList<>();
@@ -25,6 +31,10 @@ public class CsvParser {
         }
         return donnees;
     }
+
+
+
+
     /**
      * Cette methode va separer les donnees date, heure, parc, arrondissement et description pour une intervention
      *
@@ -47,7 +57,7 @@ public class CsvParser {
             String [] information = separerDonneePourUneIntervention(donnees.get(i));
 
             Intervention intervention = new Intervention(information[0],information[1],information[2],information[3],information[4]);
-            interventions.add(intervention);
+            interventions.add( intervention);
         }
         return interventions;
     }

@@ -6,7 +6,6 @@ public class Intervention {
     private String arrondissement;
 
 
-
     public String getDate() {
         return date;
     }
@@ -26,7 +25,6 @@ public class Intervention {
     public String getDescription() {
         return description;
     }
-
     public Intervention( String date,String heure,String parc,String arrondissement,String description){
         this.date=date;
         this.heure=heure;
