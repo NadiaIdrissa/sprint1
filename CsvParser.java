@@ -5,7 +5,6 @@ import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 import com.csvreader.CsvReader;
-
 /**
  * Cette classe sert a aller extraire les donnees contenues dans un fichier CSV  afin d'en modeliser les
  * interventions  policieres survenues dans les parcs de Montreal
@@ -31,13 +30,8 @@ public class CsvParser {
         }
         return donnees;
     }
-
-
-
-
     /**
      * Cette methode va separer les donnees date, heure, parc, arrondissement et description pour une intervention
-     *
      * @param donnees
      * return le tableau contenant toutes les informations pour l'intervention selectionnee(celle donnee en parametre)
      */
@@ -55,11 +49,9 @@ public class CsvParser {
         ArrayList<Intervention> interventions = new ArrayList<>();
         for (int i = 1; i < donnees.size(); i++){
             String [] information = separerDonneePourUneIntervention(donnees.get(i));
-
             Intervention intervention = new Intervention(information[0],information[1],information[2],information[3],information[4]);
             interventions.add( intervention);
         }
         return interventions;
     }
 }
-
