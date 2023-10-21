@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44617d14-cdc0-4456-9be3-a89eac6d5328" name="Changes" comment="Classe intervention.java">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javacsv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_lib_2_4_jdk15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sprint1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sprint1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sortie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sortie.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WqsviZtZfKcrTJtiJtC6RLKDPu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/nadym/Downloads/commons-io-2.4.jar",
+    "onboarding.tips.debug.path": "C:/Users/nadym/OneDrive/Desktop/UQAM/INF2050 - Outils et pratiques de développement logiciel/sprint1/src/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nadym\OneDrive\Desktop\UQAM\INF2050 - Outils et pratiques de développement logiciel\sprint1" />
+      <recent name="C:\Users\nadym\OneDrive\Desktop\UQAM\INF2050 - Outils et pratiques de développement logiciel\sprint1\src" />
+      <recent name="C:\Users\nadym\OneDrive\Desktop\UQAM\INF2050 - Outils et pratiques de développement logiciel\sprint1\src\src" />
+      <recent name="C:\Users\nadym\OneDrive\Desktop\UQAM\INF2050 - Outils et pratiques de développement logiciel\sprint1\.idea" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44617d14-cdc0-4456-9be3-a89eac6d5328" name="Changes" comment="" />
+      <created>1697471676360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697471676360</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Classe intervention.java">
+      <created>1697471915694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697471915694</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Classe intervention.java">
+      <created>1697472116816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697472116816</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Classe intervention.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classe intervention.java" />
+  </component>
+</project>

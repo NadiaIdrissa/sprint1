@@ -33,9 +33,8 @@ public class Sortie {
         for (Intervention event : interventions ) {
 
             nbIntervention++;
-            System.out.println("le doc cntient \n"+
-                    event.getDate()+ event.getHeure()+
-                    event.getArrondissement() + nbIntervention);
+            System.out.println("Arrondissement,Nombre d'interventions \n"+
+                    event.getArrondissement() + ", " + nbIntervention);
         }
 
     }
