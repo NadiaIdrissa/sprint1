@@ -7,7 +7,7 @@ public class Sortie {
     public static void main(String[] args) {
 
         // Définir le nom du fichier csv à lire
-        String interventionCsv = "Intervention.csv";
+        String interventionCsv = "InterventionData.csv";
 
         try{
             ArrayList<String> data = CsvParser.extraireDonnees(interventionCsv);
