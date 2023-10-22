@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Cette classe sert a aller extraire les donnees contenues dans un fichier CSV  afin d'en modeliser les
  * interventions  policieres survenues dans les parcs de Montreal
  */
-public class CsvParser {
+public class entree {
     /**
      * Cette methode va creer une liste qui va extraire les donnees contenues dans le fichier CSV par intervention
      *

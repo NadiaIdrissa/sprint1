@@ -1,6 +1,8 @@
+import net.sf.json.JSONArray;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.*;
 
 public class Sortie {
 
@@ -10,10 +12,10 @@ public class Sortie {
         String interventionCsv = "InterventionData.csv";
 
         try{
-            ArrayList<String> data = CsvParser.extraireDonnees(interventionCsv);
-            ArrayList <Intervention> evenements = CsvParser.convertirEnIntervention(data);
+            ArrayList<String> data = entree.extraireDonnees(interventionCsv);
+            ArrayList <Intervention> evenements = entree.convertirEnIntervention(data);
 
-            calculerNbIntervention(evenements, interventionCsv);
+            calculerNbIntervention(evenements);
 
         }catch (FileNotFoundException e){
             // En cas de fichier introuvable, affichez l'erreur
@@ -27,16 +29,37 @@ public class Sortie {
 
     }
 
-    private static void calculerNbIntervention( ArrayList<Intervention> interventions,String interventionCsv) {
+    private static void calculerNbIntervention(ArrayList<Intervention> interventions) {
         int nbIntervention = 0;
+        ArrayList<String> arrondissementTraites = new ArrayList<>();
 
-        for (Intervention event : interventions ) {
+        System.out.println("\nArrondissement,Nombre d'interventions \n");
 
-            nbIntervention++;
-            System.out.println("Arrondissement,Nombre d'interventions \n"+
-                    event.getArrondissement() + ", " + nbIntervention);
-        }
+        for (Intervention event : interventions) {
+            String arrondissement = event.getArrondissement();
+
+            // verifier si l'arrondissement a déjà été traité
+            if (!arrondissementTraites.contains(arrondissement)){
+                nbIntervention = compterArrondissement(interventions, arrondissement);
+                    System.out.println(arrondissement + ", " + nbIntervention);
+                }
+
+                //ajouter les arrondissements déjà traités
+                arrondissementTraites.add(arrondissement);
+            }
+
 
     }
+    private static int compterArrondissement(ArrayList<Intervention> interventions, String arrondissement) {
+        int nbArrondissement = 0;
+        for (Intervention evenement : interventions) {
+            if (evenement.getArrondissement().equals(arrondissement)) {
+                nbArrondissement++;
+            }
+        }
+        return nbArrondissement;
+    }
+
+
 }
 
