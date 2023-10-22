@@ -1,38 +1,42 @@
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
 public class Sortie {
 
-
     public static void sauvegarderListeDesInterventionsDansSortieCSV(ArrayList<Intervention> interventions, String sortieCSV) {
         ArrayList<String> arrondissementsTraites = new ArrayList<>();
-        String arrondissement = "";
-        int nbIntervention = 0;
-
+        interventions = trierArrondissement(interventions);
         try (FileWriter writer = new FileWriter(sortieCSV)) {
             writer.write("Arrondissement,Nombre d'interventions\n");
-
             for (Intervention event : interventions) {
-                arrondissement = event.getArrondissement();
+                String arrondissement = event.getArrondissement();
                 // Vérifier si l'arrondissement a déjà été traité
 
                 if (!arrondissementsTraites.contains(arrondissement)) {
-                    nbIntervention = compterArrondissement(interventions, arrondissement);
+                    int nbIntervention = compterArrondissement(interventions, arrondissement);
                     writer.write(arrondissement + "," + nbIntervention + "\n");
                 }
-
-
                 // Ajouter les arrondissements déjà traités
                 arrondissementsTraites.add(arrondissement);
             }
-
-
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
+    private static ArrayList<Intervention> trierArrondissement(ArrayList<Intervention>interventions) {
+        Collections.sort(interventions, new Comparator<Intervention>() {
+            @Override
+            public int compare(Intervention o1, Intervention o2) {
+                return o1.getArrondissement().compareTo(o2.getArrondissement());
+            }
+
+        });
+        return interventions;
+    }
+
+
 
 
 
