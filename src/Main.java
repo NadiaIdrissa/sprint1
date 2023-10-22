@@ -7,25 +7,24 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String entreeCSV, sortieCSV;
-        do {
-            System.out.println("fichier d'entrée (avec extension .csv) : ");
-            entreeCSV = scanner.nextLine();
-        } while (!entreeCSV.endsWith(".csv"));
+
+        System.out.println("fichier d'entrée (avec extension .csv) : ");
+        entreeCSV = scanner.nextLine();
+
+        // verifier si le fichier a une extension .csv sinon fin du programme
+        if (!entreeCSV.endsWith(".csv")) {
+            System.out.println("Fichier introuvable - Fin du programme");
+            return;
+        }
 
         do {
-            System.out.println("fichier de sortie (avec extension .csv) : ");
+            System.out.println("Fichier de sortie (avec extension .csv) : ");
             sortieCSV = scanner.nextLine();
         } while (!sortieCSV.endsWith(".csv"));
 
         scanner.close();
 
         try{
-
-            // verifier si les 2 entrees ont une extension .csven
-            if (!entreeCSV.endsWith(".csv") || !sortieCSV.endsWith(".csv")) {
-                System.out.println("Les fichiers doivent avoir l'extension .csv");
-                return;
-            }
 
             ArrayList<String> data = Entree.extraireDonnees(entreeCSV);
             ArrayList <Intervention> evenements = Entree.convertirEnIntervention(data);
@@ -40,7 +39,6 @@ public class Main {
             // En cas d'erreur d'entrée/sortie affichez l'erreur lors de la lecture
             e.printStackTrace();
         }
-
 
     }
 }
