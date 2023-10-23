@@ -13,7 +13,6 @@ public class Entree {
      * @param nomFichier
      * @return Une liste de toutes les interventions parvenues et enregistrees dans le fichier CSV
      *
-     * pourquoi une liste et non juste le fichier extrait ???
      */
     public static ArrayList<String> extraireDonnees(String nomFichier) throws FileNotFoundException {
         ArrayList<String> donnees = new ArrayList<>();

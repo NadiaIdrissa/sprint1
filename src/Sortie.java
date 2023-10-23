@@ -3,7 +3,13 @@ import java.io.IOException;
 import java.util.*;
 
 public class Sortie {
-
+    /**
+     * genere un fichier contenant la liste des arrondissements  triés en ordre alphabétique,
+     * avec le nombre d'interventions policières qui y ont eu lieu
+     *
+     * @param interventions la liste de toutes les interventions
+     * @param sortieCSV le nom du fichier de sortie
+     */
     public static void sauvegarderListeDesInterventionsDansSortieCSV(ArrayList<Intervention> interventions, String sortieCSV) {
         ArrayList<String> arrondissementsTraites = new ArrayList<>();
         interventions = trierArrondissement(interventions);
@@ -25,6 +31,13 @@ public class Sortie {
         }
     }
 
+    /**
+     * Trie les arrondissements par ordre alphabetique
+     *
+     * @param interventions la liste de toutes les  interventions
+     * @return interventions la liste triee des interventions en fonctions de
+     * l'arrondissemnt
+     */
     private static ArrayList<Intervention> trierArrondissement(ArrayList<Intervention>interventions) {
         Collections.sort(interventions, new Comparator<Intervention>() {
             @Override
@@ -37,14 +50,13 @@ public class Sortie {
     }
 
 
-
-
-
     /**
-     * Cette methode va compter le nombre d'arrondissement dans la liste des interventions
+     *  Cette methode va compter le nombre d'interventions dans chaque arrondissement
      *
-     *param ArrayList<Intervention>, String arrondissement
-     * @return le nombre d'arrondissement
+     * @param interventions la liste des interventions
+     * @param arrondissement
+     *
+     * @return nbrArrondissemnt le nombre d'interventions par arrondissemnt
      */
     private static int compterArrondissement(ArrayList<Intervention> interventions, String arrondissement) {
         int nbArrondissement = 0;

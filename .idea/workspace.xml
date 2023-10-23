@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="">
+    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="javadoc">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sortie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sortie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2WqjqOb8TFEqukilB87sRydYplG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,7 +42,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/nadym/OneDrive/Desktop/UQAM/INF2050 - Outils et pratiques de développement logiciel/sprint1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/nadym/OneDrive/Desktop/UQAM/INF2050 - Outils et pratiques de développement logiciel/Lab4/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -61,7 +74,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697467198728</updated>
+      <workItem from="1698012893534" duration="2246000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="javadoc" />
   </component>
 </project>
