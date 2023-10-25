@@ -1,3 +1,7 @@
+/**
+ * La classe intervention modelise les interventions policieres. Chaque intervention policiere peut etre
+ * identifiee par une date,une heure,une description,le parc et l'arrondissement ou s est passe celle-ci.
+ */
 public class Intervention {
     private String date;
     private String heure;
