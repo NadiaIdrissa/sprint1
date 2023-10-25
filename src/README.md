@@ -2,11 +2,11 @@ Réaliser par :
 
 Yasmine Alimatou Cisse(CISA65370402)
 Nadia Moussa Idrissa (MOUN19599705)
-Saskia ... ()
+Saskia Dessapes(DESS93570009)
 
 Remis à Jacques Berger
 
-Cours : INF2050 - développement ...
+Cours : INF2050 - Outils et pratques de développement logiciel - groupe 030
 
 Sprint 1 
 
