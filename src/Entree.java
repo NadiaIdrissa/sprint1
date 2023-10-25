@@ -10,7 +10,7 @@ public class Entree {
     /**
      * Cette methode va creer une liste qui va extraire les donnees contenues dans le fichier CSV par intervention
      *
-     * @param nomFichier
+     * @param nomFichier le nom du fichiercsv existant à extraire
      * @return Une liste de toutes les interventions parvenues et enregistrees dans le fichier CSV
      *
      */
@@ -28,7 +28,7 @@ public class Entree {
     }
     /**
      * Cette methode va separer les donnees date, heure, parc, arrondissement et description pour une intervention
-     * @param donnees
+     * @param donnees les donnees extraites du fichier csv
      * return le tableau contenant toutes les informations pour l'intervention selectionnee(celle donnee en parametre)
      */
     public static String [] separerDonneePourUneIntervention(String donnees) {
@@ -38,7 +38,7 @@ public class Entree {
     /**
      * Cette methode va creer une liste qui va contenir toutes les interventions contenues dans le fichier CSV
      *
-     * @param donnees
+     * @param donnees les donnees extraites du fichier csv
      * @return la liste des interventions qui etaient dans le fichier CSV
      */
     public static ArrayList<Intervention> convertirEnIntervention(ArrayList<String> donnees){
