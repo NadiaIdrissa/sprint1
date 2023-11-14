@@ -1,9 +1,10 @@
+
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class ProgrammePrincipal {
 
     public static void main(String[] args) {
         if (args.length != 2) {
@@ -30,8 +31,8 @@ public class Main {
                     ArrayList<Intervention> evenements = Entree.convertirEnIntervention(data);
                     Sortie.sauvegarderListeDesInterventionsDansSortieCSV(evenements, sortieCSV);
                     System.out.println("Exécution réussie. Les résultats sont enregistrés dans le fichier '" + sortieCSV + "'.");
-                } catch (FileNotFoundException var7) {
-                    System.err.println("Erreur: Fichier introuvable - " + var7.getMessage());
+                } catch (FileNotFoundException e) {
+                    System.err.println("Erreur: Fichier introuvable - " + e.getMessage());
                 }
 
             }
