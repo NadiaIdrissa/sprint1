@@ -1,14 +1,8 @@
 <component name="libraryTable">
   <library name="javaslang" type="repository">
     <properties maven-id="com.javaslang:javaslang:2.0.0-beta" />
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/javaslang-2.0.0-beta.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/lib/javaslang-2.0.0-beta-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/lib/javaslang-2.0.0-beta-sources.jar!/" />
-    </SOURCES>
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>
