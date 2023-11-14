@@ -1,6 +1,5 @@
 import com.google.gson.JsonArray;
 import com.google.gson.JsonParser;
-import java.io.File;
 
 import java.io.FileReader;
 import java.io.IOException;
