@@ -76,18 +76,15 @@ public class Sortie {
         List<String> parcs = new ArrayList<>();
 
         for (Intervention intervention : interventions){
-            if(intervention.getArrondissement().equals(arrondissement)){
+            if(intervention.getArrondissement().equals(arrondissement)) {
                 String nomDuParc = intervention.getParc();
 
                 //verifier si le parc n'est pas dans la liste, l'ajouter
-                if(!parcs.contains(nomDuParc)){
+                if (!parcs.contains(nomDuParc)) {
                     parcs.add(nomDuParc);
                 }
-            }else {
-                // Afficher une erreur et terminer le programme
-                System.err.println("Erreur: Nom du parc vide dans l'arrondissement '" + arrondissement + "'.");
-                System.exit(1);
             }
+
         }
         return parcs.size();
     }

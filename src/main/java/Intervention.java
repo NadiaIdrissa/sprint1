@@ -1,5 +1,6 @@
 import com.google.gson.JsonArray;
 import com.google.gson.JsonParser;
+import java.io.File;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -67,6 +68,7 @@ public class Intervention {
      * @return la liste des differents types d'interventions
      */
     public static List<String> chargementDescriptionJSON(){
+
         List<String> listeDescription = new ArrayList<>();
         try(FileReader lectureFichierJSON = new FileReader("json/interventions.json")) {
             JsonArray descriptionJSON = JsonParser.parseReader(lectureFichierJSON).getAsJsonObject().getAsJsonArray("intervention_policiere");
