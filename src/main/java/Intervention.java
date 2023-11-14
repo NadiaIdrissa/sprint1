@@ -60,10 +60,15 @@ public class Intervention {
         }
         return listeDescription.contains(description);
     }
-
+    /**
+     * Cette methode lit la liste des interventions dans le fichier JSON inteverntions.json
+     * et en extraire les donnees contenues
+     *
+     * @return la liste des differents types d'interventions
+     */
     public static List<String> chargementDescriptionJSON(){
         List<String> listeDescription = new ArrayList<>();
-        try(FileReader lectureFichierJSON = new FileReader("json/descriptions.json")) {
+        try(FileReader lectureFichierJSON = new FileReader("json/interventions.json")) {
             JsonArray descriptionJSON = JsonParser.parseReader(lectureFichierJSON).getAsJsonObject().getAsJsonArray("intervention_policiere");
 
             //ajouter arrondissements dans la liste en string
@@ -77,6 +82,12 @@ public class Intervention {
         return listeDescription;
     }
 
+    /**
+     * Cette methode lit la liste des arrondissements dans le fichiers JSON et en extraire les donnees
+     * contenues
+     *
+     * @return la liste des arrondissements
+     */
     public static List<String> chargementArrondissementJSON(){
         List<String> listeArrondissement = new ArrayList<>();
 
