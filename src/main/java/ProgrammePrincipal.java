@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+
 public class ProgrammePrincipal {
 
     public static void main(String[] args) {
@@ -22,7 +23,7 @@ public class ProgrammePrincipal {
                 do {
                     System.out.println("Fichier de sortie (avec extension .csv) : ");
                     sortieCSV = scanner.nextLine();
-                } while(!sortieCSV.endsWith(".csv"));
+                } while (!sortieCSV.endsWith(".csv"));
 
                 scanner.close();
 
@@ -39,5 +40,3 @@ public class ProgrammePrincipal {
         }
     }
 }
-
-
