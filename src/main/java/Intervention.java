@@ -1,3 +1,11 @@
+import com.google.gson.JsonArray;
+import com.google.gson.JsonParser;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * La classe intervention modelise les interventions policieres. Chaque intervention policiere peut etre
  * identifiee par une date,une heure,une description,le parc et l'arrondissement ou s est passe celle-ci.
@@ -36,6 +44,54 @@ public class Intervention {
         this.arrondissement=arrondissement;
         this.description=description;
 
+    }
+
+    public static boolean validerArrondissement(String arrondissement){
+        List<String> listeArrondissement = chargementArrondissementJSON();
+        return listeArrondissement.contains(arrondissement);
+    }
+
+    public static boolean validerDescription(String description){
+        List<String> listeDescription = chargementDescriptionJSON();
+
+        // si la liste description n'est pas charger
+        if(listeDescription == null){
+            chargementDescriptionJSON();
+        }
+        return listeDescription.contains(description);
+    }
+
+    public static List<String> chargementDescriptionJSON(){
+        List<String> listeDescription = new ArrayList<>();
+        try(FileReader lectureFichierJSON = new FileReader("json/descriptions.json")) {
+            JsonArray descriptionJSON = JsonParser.parseReader(lectureFichierJSON).getAsJsonObject().getAsJsonArray("intervention_policiere");
+
+            //ajouter arrondissements dans la liste en string
+            for (int i = 0; i < descriptionJSON.size(); i++) {
+                listeDescription.add(descriptionJSON.get(i).getAsString());
+            }
+        }catch (IOException e){
+            e.printStackTrace(); // gestion et trace des exceptions
+
+        }
+        return listeDescription;
+    }
+
+    public static List<String> chargementArrondissementJSON(){
+        List<String> listeArrondissement = new ArrayList<>();
+
+        try(FileReader lectureFichierJSON = new FileReader("json/arrondissements.json")) {
+            JsonArray arrondissementsJSON = JsonParser.parseReader(lectureFichierJSON).getAsJsonObject().getAsJsonArray("arrondissements");
+
+            //ajouter arrondissements dans la liste en string
+            for (int i = 0; i < arrondissementsJSON.size(); i++) {
+                listeArrondissement.add(arrondissementsJSON.get(i).getAsString());
+            }
+        }catch (IOException e){
+            e.printStackTrace(); // gestion et trace des exceptions
+
+        }
+        return listeArrondissement;
     }
 
 }

@@ -13,15 +13,19 @@ public class Sortie {
     public static void sauvegarderListeDesInterventionsDansSortieCSV(ArrayList<Intervention> interventions, String sortieCSV) {
         ArrayList<String> arrondissementsTraites = new ArrayList<>();
         interventions = trierArrondissement(interventions);
+
         try (FileWriter writer = new FileWriter(sortieCSV)) {
             writer.write("Arrondissement,Nombre d'interventions\n");
+
             for (Intervention event : interventions) {
                 String arrondissement = event.getArrondissement();
-                // Vérifier si l'arrondissement a déjà été traité
 
+                // Vérifier si l'arrondissement a déjà été traité
                 if (!arrondissementsTraites.contains(arrondissement)) {
                     int nbIntervention = compterArrondissement(interventions, arrondissement);
-                    writer.write(arrondissement + "," + nbIntervention + "\n");
+                    int nbParc = compterParc(interventions, arrondissement);
+
+                    writer.write(arrondissement + "," + nbIntervention + "," + nbParc + "\n");
                 }
                 // Ajouter les arrondissements déjà traités
                 arrondissementsTraites.add(arrondissement);
@@ -66,6 +70,26 @@ public class Sortie {
             }
         }
         return nbArrondissement;
+    }
+
+    private static int compterParc (ArrayList<Intervention> interventions, String arrondissement){
+        List<String> parcs = new ArrayList<>();
+
+        for (Intervention intervention : interventions){
+            if(intervention.getArrondissement().equals(arrondissement)){
+                String nomDuParc = intervention.getParc();
+
+                //verifier si le parc n'est pas dans la liste, l'ajouter
+                if(!parcs.contains(nomDuParc)){
+                    parcs.add(nomDuParc);
+                }
+            }else {
+                // Afficher une erreur et terminer le programme
+                System.err.println("Erreur: Nom du parc vide dans l'arrondissement '" + arrondissement + "'.");
+                System.exit(1);
+            }
+        }
+        return parcs.size();
     }
 
 
