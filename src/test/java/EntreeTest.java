@@ -43,7 +43,6 @@ public class EntreeTest {
 
         ByteArrayOutputStream errorStream = new ByteArrayOutputStream();
         System.setErr(new PrintStream(errorStream));
-
         Throwable exception = assertThrows(RuntimeException.class, () -> Entree.convertirEnIntervention(Entree.extraireDonnees("arrondissementManquant.csv")));
         String actualErrorOutput = errorStream.toString().trim();
         System.setErr(System.err);
