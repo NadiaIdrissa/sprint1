@@ -42,7 +42,7 @@ public class Sortie {
      * @return interventions la liste triee des interventions en fonctions de
      * l'arrondissemnt
      */
-    private static ArrayList<Intervention> trierArrondissement(ArrayList<Intervention>interventions) {
+    protected static ArrayList<Intervention> trierArrondissement(ArrayList<Intervention> interventions) {
         Collections.sort(interventions, new Comparator<Intervention>() {
             @Override
             public int compare(Intervention o1, Intervention o2) {
