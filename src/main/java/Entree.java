@@ -30,7 +30,7 @@ public class Entree {
             if(donnee.split(",").length != 5){
                 //affiche l'erreur et arret du programme
                 System.err.println("Erreur dans le fichier '" + nomFichier + "' à la ligne " + numeroLigne + " : Le nombre de champs est incorrect.");
-                //System.exit(0);
+
             }
 
             donnees.add(donnee);
