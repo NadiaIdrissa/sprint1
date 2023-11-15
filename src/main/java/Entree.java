@@ -1,7 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 /**
  * Cette classe sert a aller extraire les donnees contenues dans un fichier CSV  afin d'en modeliser les
@@ -56,8 +55,6 @@ public class Entree {
      */
     public static ArrayList<Intervention> convertirEnIntervention(ArrayList<String> donnees){
         ArrayList<Intervention> interventions = new ArrayList<>();
-        List<String> listeArrondissement = Intervention.chargementArrondissementJSON();
-        List<String> listeDescription = Intervention.chargementDescriptionJSON();
 
         for (int i = 1; i < donnees.size(); i++){
             String [] information = separerDonneePourUneIntervention(donnees.get(i));
@@ -65,7 +62,7 @@ public class Entree {
             String arrondissement = information[3]; // l'arrondissement est à l'indice 3
             // verification de l'arrondissement et de la description avant la creation d'une intervention
             if(!Intervention.validerDescription(description)) {
-                System.out.println("Erreur : Intervetion incorrecte");
+                System.out.println("Erreur : Intervention incorrecte");
             }else if(!Intervention.validerArrondissement(arrondissement)) {
                 System.out.println("Erreur : Arrondissement incorrect");
             }

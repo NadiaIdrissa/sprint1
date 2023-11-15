@@ -7,11 +7,28 @@
     <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="methodes de test de la classe Entree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Intervention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProgrammePrincipal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sortie$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sortie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrondissements.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interventions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EntreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SortieTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\saski\Desktop\INF2050\sprint1\htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,10 +103,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EntreeTest">
+  <component name="RunManager" selected="Application.ProgrammePrincipal">
     <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
       <module name="sprint1" />
+      <option name="PROGRAM_PARAMETERS" value="Entree.csv Sortie.csv" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,8 +169,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EntreeTest" />
         <item itemvalue="Application.ProgrammePrincipal" />
+        <item itemvalue="JUnit.EntreeTest" />
         <item itemvalue="JUnit.EntreeTest.TestseparerDonneesPourUneInformation" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaisArrondissement" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
