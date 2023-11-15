@@ -26,4 +26,19 @@ public class SortieTest {
     interventions2=Sortie.trierArrondissement(interventions2);
     assertEquals(interventions,interventions2);
 }
+@Test
+//ici on teste l'entree d'un fichier vide
+    void TestfichierVide () throws FileNotFoundException {
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outputStream));
+        try {
+            Entree.convertirEnIntervention(Entree.extraireDonnees("TestFichierVide.csv"));
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        String actualOutput = outputStream.toString().trim();
+        System.setOut(System.out);
+        // Compare la sortie avec les attentes
+        assertEquals("le fichier est vide", actualOutput);
+      }
 }

@@ -19,6 +19,9 @@ public class Entree {
 
         File fichierCsv = new File(nomFichier);
         Scanner scanner = new Scanner(fichierCsv);
+        if(!scanner.hasNext()){
+            System.out.println("le fichier est vide");
+        }
 
         // en cas d'erreur va afficher le numero de la ligne en question
         int numeroLigne = 1;
