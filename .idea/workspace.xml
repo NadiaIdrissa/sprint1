@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="methodes de test de la classe Entree">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Intervention.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Intervention.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sortie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sortie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Intervention.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Intervention.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProgrammePrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProgrammePrincipal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sortie$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sortie$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sortie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sortie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-11-14T20-25-33_742-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-11-14T20-25-33_742-jvmRun1.dumpstream" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +87,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.EntreeTest">
+    <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
+      <module name="sprint1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sortie.csv" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Sortie" />
       <module name="sprint1" />
@@ -113,16 +107,6 @@
       <option name="MAIN_CLASS_NAME" value="EntreeTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EntreeTest.TestDescriptionImcomplete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sprint1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EntreeTest" />
-      <option name="METHOD_NAME" value="TestDescriptionImcomplete" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,7 +143,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Sortie.csv" />
-      <item itemvalue="JUnit.EntreeTest.TestDescriptionImcomplete" />
+      <item itemvalue="Application.ProgrammePrincipal" />
       <item itemvalue="JUnit.EntreeTest.TesterMauvaisArrondissement" />
       <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
       <item itemvalue="JUnit.EntreeTest.TestseparerDonneesPourUneInformation" />
@@ -168,10 +152,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.EntreeTest" />
+        <item itemvalue="Application.ProgrammePrincipal" />
         <item itemvalue="JUnit.EntreeTest.TestseparerDonneesPourUneInformation" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaisArrondissement" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
-        <item itemvalue="JUnit.EntreeTest.TestDescriptionImcomplete" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +236,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sprint1$EntreeTest.ic" NAME="EntreeTest Coverage Results" MODIFIED="1700016724772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/sprint1$Main.ic" NAME="Main Coverage Results" MODIFIED="1699958805022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/sprint1$ProgrammePrincipal.ic" NAME="ProgrammePrincipal Coverage Results" MODIFIED="1700001458463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
