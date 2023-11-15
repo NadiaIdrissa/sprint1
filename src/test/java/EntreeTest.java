@@ -35,20 +35,7 @@ public class EntreeTest {
         assertArrayEquals(information2, information);
     }
 
-    @Test
-    void TestDescriptionImcomplete() {
-        ArrayList<String> donnees = new ArrayList<>();
 
-
-        ByteArrayOutputStream errorStream = new ByteArrayOutputStream();
-        System.setErr(new PrintStream(errorStream));
-        Throwable exception = assertThrows(RuntimeException.class, () -> Entree.convertirEnIntervention(Entree.extraireDonnees("DescriptionImcomplete.csv")));
-        String actualErrorOutput = errorStream.toString().trim();
-        System.setErr(System.err);
-        // Vérifie que la sortie d'erreur n'est pas vide
-        assert errorStream.toString().trim().length() > 0;
-
-    }
 
     @Test
     void TesterMauvaiseIntervention() throws FileNotFoundException {

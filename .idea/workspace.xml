@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="tests completé">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="verifications">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProgrammePrincipal">
+  <component name="RunManager" selected="JUnit.EntreeTest">
     <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
       <module name="sprint1" />
@@ -154,8 +154,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProgrammePrincipal" />
         <item itemvalue="JUnit.EntreeTest" />
+        <item itemvalue="Application.ProgrammePrincipal" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaisArrondissement" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
         <item itemvalue="JUnit.EntreeTest.TestDescriptionImcomplete" />
@@ -232,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700011943350</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="verifications">
+      <option name="closed" value="true" />
+      <created>1700022320669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700022320669</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +263,8 @@
     <MESSAGE value="methodes de test de la classe Entree" />
     <MESSAGE value="creation d'une classe de test InterventionTest" />
     <MESSAGE value="tests completé" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests completé" />
+    <MESSAGE value="verifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="verifications" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
