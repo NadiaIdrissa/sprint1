@@ -30,8 +30,8 @@ public class Entree {
             //verifie si la ligne contient les 5 elements
             if(donnee.split(",").length != 5){
                 //affiche l'erreur et arret du programme
-                System.out.println("Erreur dans le fichier '" + nomFichier + "' à la ligne " + numeroLigne + " : Le nombre de champs est incorrect.");
-                System.exit(1);
+                System.err.println("Erreur dans le fichier '" + nomFichier + "' à la ligne " + numeroLigne + " : Le nombre de champs est incorrect.");
+                //System.exit(1);
             }
 
             donnees.add(donnee);
@@ -61,15 +61,18 @@ public class Entree {
 
         for (int i = 1; i < donnees.size(); i++){
             String [] information = separerDonneePourUneIntervention(donnees.get(i));
-            String description = information[4]; // l'arrondissement est à l'indice 4
-
+            String description = information[4]; // la description est à l'indice 4
+            String arrondissement = information[3]; // l'arrondissement est à l'indice 3
             // verification de l'arrondissement et de la description avant la creation d'une intervention
-            if(Intervention.validerDescription(description)) {
-                String arrondissement = information[3]; // l'arrondissement est à l'indice 3
+            if(!Intervention.validerDescription(description)) {
+                System.out.println("Erreur : Intervetion inexistante");
+            }else if(!Intervention.validerArrondissement(arrondissement)) {
+                    System.out.println("Erreur : Arrondissement inexistant");
+                }
+            else  {
+
                 Intervention intervention = new Intervention(information[0], information[1], information[2], arrondissement, description);
                 interventions.add(intervention);
-            }else {
-                System.out.println("Erreur : Arrondissement n'est pas là ");
             }
         }
         return interventions;
