@@ -51,6 +51,11 @@ public class Intervention {
         return listeArrondissement.contains(arrondissement);
     }
 
+    /**
+     * Cette methode retourne
+     * @param description
+     * @return vrai si la liste des types d'interventions contient la l'intevertion(la description)
+     */
     public static boolean validerDescription(String description){
         List<String> listeDescription = chargementDescriptionJSON();
 

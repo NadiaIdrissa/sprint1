@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Sortie {
     /**
-     * genere un fichier contenant la liste des arrondissements  triés en ordre alphabétique,
+     * Genere un fichier contenant la liste des arrondissements  triés en ordre alphabétique,
      * avec le nombre d'interventions policières qui y ont eu lieu
      *
      * @param interventions la liste de toutes les interventions
@@ -71,6 +71,13 @@ public class Sortie {
         }
         return nbArrondissement;
     }
+
+    /**
+     * Cette methode compte le nombre de parcs contenus  dans chaque  arrondissement
+     * @param interventions
+     * @param arrondissement
+     * @return le nombre de parcs dans chacun des arrondissement
+     */
 
     private static int compterParc (ArrayList<Intervention> interventions, String arrondissement){
         List<String> parcs = new ArrayList<>();
