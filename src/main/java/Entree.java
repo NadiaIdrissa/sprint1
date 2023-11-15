@@ -65,10 +65,10 @@ public class Entree {
             String arrondissement = information[3]; // l'arrondissement est à l'indice 3
             // verification de l'arrondissement et de la description avant la creation d'une intervention
             if(!Intervention.validerDescription(description)) {
-                System.out.println("Erreur : Intervetion inexistante");
+                System.out.println("Erreur : Intervetion incorrecte");
             }else if(!Intervention.validerArrondissement(arrondissement)) {
-                    System.out.println("Erreur : Arrondissement inexistant");
-                }
+                System.out.println("Erreur : Arrondissement incorrect");
+            }
             else  {
 
                 Intervention intervention = new Intervention(information[0], information[1], information[2], arrondissement, description);
