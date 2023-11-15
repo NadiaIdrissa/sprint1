@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="methodes de test de la classe Entree">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Entree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Intervention.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProgrammePrincipal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sortie$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sortie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arrondissements.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interventions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EntreeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SortieTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="methodes de test de la classe Entree" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +86,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProgrammePrincipal">
+  <component name="RunManager" selected="JUnit.EntreeTest">
     <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
       <module name="sprint1" />
@@ -129,6 +112,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EntreeTest.TestDescriptionImcomplete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EntreeTest" />
+      <option name="METHOD_NAME" value="TestDescriptionImcomplete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EntreeTest.TesterMauvaisArrondissement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint1" />
       <option name="PACKAGE_NAME" value="" />
@@ -149,31 +142,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntreeTest.TestseparerDonneesPourUneInformation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sprint1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EntreeTest" />
-      <option name="METHOD_NAME" value="TestseparerDonneesPourUneInformation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Sortie.csv" />
       <item itemvalue="Application.ProgrammePrincipal" />
+      <item itemvalue="JUnit.EntreeTest.TestDescriptionImcomplete" />
       <item itemvalue="JUnit.EntreeTest.TesterMauvaisArrondissement" />
       <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
-      <item itemvalue="JUnit.EntreeTest.TestseparerDonneesPourUneInformation" />
       <item itemvalue="JUnit.EntreeTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProgrammePrincipal" />
         <item itemvalue="JUnit.EntreeTest" />
-        <item itemvalue="JUnit.EntreeTest.TestseparerDonneesPourUneInformation" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaisArrondissement" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
+        <item itemvalue="JUnit.EntreeTest.TestDescriptionImcomplete" />
+        <item itemvalue="Application.ProgrammePrincipal" />
       </list>
     </recent_temporary>
   </component>

@@ -64,7 +64,7 @@ public class EntreeTest {
         String actualOutput = outputStream.toString().trim();
         System.setOut(System.out);
         // Compare la sortie avec les attentes
-        assertEquals("Erreur : Intervetion incorrecte", actualOutput);
+        assertEquals("Erreur : Intervention incorrecte", actualOutput);
 
     }
 
