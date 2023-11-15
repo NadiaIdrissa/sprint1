@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="methodes de test de la classe Entree" />
+=======
+    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="creation d'une classe de test InterventionTest">
+      <change afterPath="$PROJECT_DIR$/SortieTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InterventionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SortieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortieTest.java" afterDir="false" />
+    </list>
+>>>>>>> 465eb3f (tests supplementaires)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,11 +94,19 @@
       <recent name="" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.EntreeTest">
     <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
       <module name="sprint1" />
       <option name="PROGRAM_PARAMETERS" value="Entree.csv Sortie.csv" />
+=======
+  <component name="RunManager" selected="Application.ProgrammePrincipal">
+    <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
+      <module name="sprint1" />
+      <option name="PROGRAM_PARAMETERS" value="DescriptionImcomplete.csv Sortie.csv" />
+>>>>>>> 465eb3f (tests supplementaires)
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +168,18 @@
     </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
+=======
+        <item itemvalue="Application.ProgrammePrincipal" />
+>>>>>>> 465eb3f (tests supplementaires)
         <item itemvalue="JUnit.EntreeTest" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaisArrondissement" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
         <item itemvalue="JUnit.EntreeTest.TestDescriptionImcomplete" />
+<<<<<<< HEAD
         <item itemvalue="Application.ProgrammePrincipal" />
+=======
+>>>>>>> 465eb3f (tests supplementaires)
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +221,39 @@
       <option name="project" value="LOCAL" />
       <updated>1700009704524</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="methodes de test de la classe Entree">
+      <option name="closed" value="true" />
+      <created>1700011650016</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700011650016</updated>
+    </task>
+    <task id="LOCAL-00005" summary="methodes de test de la classe Entree">
+      <option name="closed" value="true" />
+      <created>1700011655712</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700011655712</updated>
+    </task>
+    <task id="LOCAL-00006" summary="methodes de test de la classe Entree">
+      <option name="closed" value="true" />
+      <created>1700011818564</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700011818564</updated>
+    </task>
+    <task id="LOCAL-00007" summary="creation d'une classe de test InterventionTest">
+      <option name="closed" value="true" />
+      <created>1700011943350</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700011943350</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +274,8 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Redirection des messages d'erreurs vers la sortie d'erreur" />
     <MESSAGE value="methodes de test de la classe Entree" />
-    <option name="LAST_COMMIT_MESSAGE" value="methodes de test de la classe Entree" />
+    <MESSAGE value="creation d'une classe de test InterventionTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation d'une classe de test InterventionTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
