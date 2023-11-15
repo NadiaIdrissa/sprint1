@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="methodes de test de la classe Entree" />
-=======
-    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="creation d'une classe de test InterventionTest">
-      <change afterPath="$PROJECT_DIR$/SortieTest.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InterventionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SortieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortieTest.java" afterDir="false" />
+    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="tests completé">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
->>>>>>> 465eb3f (tests supplementaires)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,19 +88,11 @@
       <recent name="" />
     </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="JUnit.EntreeTest">
-    <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
-      <module name="sprint1" />
-      <option name="PROGRAM_PARAMETERS" value="Entree.csv Sortie.csv" />
-=======
   <component name="RunManager" selected="Application.ProgrammePrincipal">
     <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
       <module name="sprint1" />
-      <option name="PROGRAM_PARAMETERS" value="DescriptionImcomplete.csv Sortie.csv" />
->>>>>>> 465eb3f (tests supplementaires)
+      <option name="PROGRAM_PARAMETERS" value="Entree.csv Sortie.csv" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,18 +154,11 @@
     </list>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
-=======
         <item itemvalue="Application.ProgrammePrincipal" />
->>>>>>> 465eb3f (tests supplementaires)
         <item itemvalue="JUnit.EntreeTest" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaisArrondissement" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
         <item itemvalue="JUnit.EntreeTest.TestDescriptionImcomplete" />
-<<<<<<< HEAD
-        <item itemvalue="Application.ProgrammePrincipal" />
-=======
->>>>>>> 465eb3f (tests supplementaires)
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +254,8 @@
     <MESSAGE value="Redirection des messages d'erreurs vers la sortie d'erreur" />
     <MESSAGE value="methodes de test de la classe Entree" />
     <MESSAGE value="creation d'une classe de test InterventionTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation d'une classe de test InterventionTest" />
+    <MESSAGE value="tests completé" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests completé" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -293,8 +273,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sprint1$EntreeTest.ic" NAME="EntreeTest Coverage Results" MODIFIED="1700016724772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/sprint1$Main.ic" NAME="Main Coverage Results" MODIFIED="1699958805022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/sprint1$ProgrammePrincipal.ic" NAME="ProgrammePrincipal Coverage Results" MODIFIED="1700001458463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/sprint1$Main.ic" NAME="Main Coverage Results" MODIFIED="1699958805022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/sprint1$EntreeTest.ic" NAME="EntreeTest Coverage Results" MODIFIED="1700016724772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
