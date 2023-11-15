@@ -74,7 +74,7 @@ public class EntreeTest {
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outputStream));
         try {
-            Entree.convertirEnIntervention(Entree.extraireDonnees("MauvaisArromndissement.csv"));
+            Entree.convertirEnIntervention(Entree.extraireDonnees("MauvaisArrondissement.csv"));
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }

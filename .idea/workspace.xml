@@ -100,15 +100,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EntreeTest.TestListerDonnees">
-    <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
-      <module name="sprint1" />
-      <option name="PROGRAM_PARAMETERS" value="Entree.csv Sortie.csv" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.EntreeTest.TesterMauvaisArrondissement">
     <configuration name="Sortie.csv" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Sortie" />
       <module name="sprint1" />
@@ -136,21 +128,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntreeTest.TestListerDonnees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sprint1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EntreeTest" />
-      <option name="METHOD_NAME" value="TestListerDonnees" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EntreeTest.TesterMauvaisArrondissement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EntreeTest" />
       <option name="METHOD_NAME" value="TesterMauvaisArrondissement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntreeTest.TesterMauvaiseIntervention" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EntreeTest" />
+      <option name="METHOD_NAME" value="TesterMauvaiseIntervention" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,20 +160,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Sortie.csv" />
-      <item itemvalue="Application.ProgrammePrincipal" />
       <item itemvalue="JUnit.EntreeTest.TestDescriptionImcomplete" />
       <item itemvalue="JUnit.EntreeTest.TesterMauvaisArrondissement" />
+      <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
       <item itemvalue="JUnit.EntreeTest.TestseparerDonneesPourUneInformation" />
-      <item itemvalue="JUnit.EntreeTest.TestListerDonnees" />
       <item itemvalue="JUnit.EntreeTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EntreeTest.TestListerDonnees" />
+        <item itemvalue="JUnit.EntreeTest.TesterMauvaisArrondissement" />
+        <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
         <item itemvalue="JUnit.EntreeTest.TestDescriptionImcomplete" />
-        <item itemvalue="JUnit.EntreeTest.TestseparerDonneesPourUneInformation" />
-        <item itemvalue="Application.ProgrammePrincipal" />
         <item itemvalue="JUnit.EntreeTest" />
+        <item itemvalue="JUnit.EntreeTest.TestseparerDonneesPourUneInformation" />
       </list>
     </recent_temporary>
   </component>
