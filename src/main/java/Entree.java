@@ -22,7 +22,7 @@ public class Entree {
      * @return Une liste de toutes les interventions parvenues et enregistrees dans le fichier CSV
      *
      */
-    public static ArrayList<String> extraireDonnees(String nomFichier) throws FileNotFoundException {
+        public static ArrayList<String> extraireDonnees(String nomFichier) throws FileNotFoundException {
         ArrayList<String> donnees = new ArrayList<>();
 
         File fichierCsv = new File(nomFichier);
@@ -35,6 +35,9 @@ public class Entree {
 
         // en cas d'erreur va afficher le numero de la ligne en question
         int numeroLigne = 1;
+
+        // Ajout de cette ligne pour lire la première ligne
+        donnees.add(scanner.nextLine());
 
         while (scanner.hasNext()) {
             String donnee = scanner.nextLine();
@@ -71,7 +74,7 @@ public class Entree {
     public static ArrayList<Intervention> convertirEnIntervention(ArrayList<String> donnees){
         ArrayList<Intervention> interventions = new ArrayList<>();
 
-        for (int i = 1; i < donnees.size(); i++){
+        for (int i = 0; i < donnees.size(); i++){
             String [] information = separerDonneePourUneIntervention(donnees.get(i));
             String description = information[4]; // la description est à l'indice 4
             String arrondissement = information[3]; // l'arrondissement est à l'indice 3

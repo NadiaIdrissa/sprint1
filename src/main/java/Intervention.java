@@ -17,8 +17,7 @@ public class Intervention {
     private String description;
     private String parc;
     private String arrondissement;
-    private BufferedReader bufferedReaderArrondissement;
-    private BufferedReader bufferedReaderDescription;
+
 
 
     public String getDate() {
@@ -118,11 +117,4 @@ public class Intervention {
         return listeArrondissement;
     }
 
-    public void setBufferedReaderArrondissement(BufferedReader mockFileReader) {
-        this.bufferedReaderArrondissement = mockFileReader;
-    }
-
-    public void setBufferedReaderDescription(BufferedReader mockFileReader) {
-        this.bufferedReaderDescription = mockFileReader;
-    }
 }

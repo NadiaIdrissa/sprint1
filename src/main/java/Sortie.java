@@ -99,7 +99,6 @@ public class Sortie {
         return parcs.size();
     }
 
-
     public void setFileWriter(FileWriter mockFileWriter) {
     }
 }

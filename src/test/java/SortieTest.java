@@ -59,37 +59,7 @@ public class SortieTest {
           String resultatActuel= Files.readString(Path.of("SortieFichiertest.csv"));
           assertEquals(resultatVoulu,resultatActuel);
       }
+      //lecture fichier json d'entree et sortie fichier
 
-    /*@Test
-    void testSauvegarderListeDesInterventionsDansSortieCSV() throws IOException {
-        // Créez un mock pour FileWriter afin de ne pas écrire réellement dans un fichier
-        FileWriter mockFileWriter = mock(FileWriter.class);
-
-        // Créez une instance de Sortie et définissez le mockFileWriter
-        Sortie sortie = new Sortie();
-        sortie.setFileWriter(mockFileWriter);
-
-        // Créez une liste d'interventions pour le test
-        ArrayList<Intervention> interventions = new ArrayList<>();
-
-        Intervention intervention1 = new Intervention("2023-09-01", "20:41", "Parc Camille", "Ahuntsic-Cartierville", "Vente de drogues");
-        Intervention intervention2 = new Intervention("2023-08-26", "23:11", "Parc Brook", "Pierrefonds-Roxboro", "Vente de drogues");
-        interventions.add(intervention1);
-        interventions.add(intervention2);
-
-        // Configurez le comportement du mockFileWriter
-        doNothing().when(mockFileWriter).write(anyString());
-
-        // Appelez la méthode que vous souhaitez tester
-        sortie.sauvegarderListeDesInterventionsDansSortieCSV(interventions, "TestFichierSortie.csv");
-
-        // Vérifiez que la méthode write a été appelée avec les bonnes lignes
-        verify(mockFileWriter, times(1)).write("Ahuntsic-Cartierville,1,1\n");
-        verify(mockFileWriter, times(1)).write("Pierrefonds-Roxboro,1,1\n");
-
-
-        // Assurez-vous de fermer le mockFileWriter pour éviter des fuites de ressources
-        mockFileWriter.close();
-    }*/
 
 }

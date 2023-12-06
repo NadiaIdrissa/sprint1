@@ -31,17 +31,4 @@ public class ProgrammePrincipal {
 
     }
 
-    public static void executerProgramme(Entree entree, Sortie sortie, String entreeCSV, String sortieCSV) {
-        try {
-            ArrayList<String> data = entree.extraireDonnees(entreeCSV);
-            ArrayList<Intervention> evenements = entree.convertirEnIntervention(data);
-            sortie.sauvegarderListeDesInterventionsDansSortieCSV(evenements, sortieCSV);
-            System.out.println("Exécution réussie. Les résultats sont enregistrés dans le fichier '" + sortieCSV + "'.");
-        } catch (FileNotFoundException e) {
-            System.err.println("Erreur: Fichier introuvable - " + e.getMessage());
-        } catch (IOException e) {
-            System.err.println("Erreur d'entrée/sortie - " + e.getMessage());
-        }
-    }
-
 }

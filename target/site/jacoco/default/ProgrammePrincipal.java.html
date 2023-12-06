@@ -31,18 +31,5 @@ import java.util.ArrayList;
 
 <span class="nc" id="L32">    }</span>
 
-    public static void executerProgramme(Entree entree, Sortie sortie, String entreeCSV, String sortieCSV) {
-        try {
-<span class="nc" id="L36">            ArrayList&lt;String&gt; data = entree.extraireDonnees(entreeCSV);</span>
-<span class="nc" id="L37">            ArrayList&lt;Intervention&gt; evenements = entree.convertirEnIntervention(data);</span>
-<span class="nc" id="L38">            sortie.sauvegarderListeDesInterventionsDansSortieCSV(evenements, sortieCSV);</span>
-<span class="nc" id="L39">            System.out.println(&quot;Exécution réussie. Les résultats sont enregistrés dans le fichier '&quot; + sortieCSV + &quot;'.&quot;);</span>
-<span class="nc" id="L40">        } catch (FileNotFoundException e) {</span>
-<span class="nc" id="L41">            System.err.println(&quot;Erreur: Fichier introuvable - &quot; + e.getMessage());</span>
-<span class="nc" id="L42">        } catch (IOException e) {</span>
-<span class="nc" id="L43">            System.err.println(&quot;Erreur d'entrée/sortie - &quot; + e.getMessage());</span>
-<span class="nc" id="L44">        }</span>
-<span class="nc" id="L45">    }</span>
-
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

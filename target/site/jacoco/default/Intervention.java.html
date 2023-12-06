@@ -17,45 +17,44 @@ public class Intervention {
     private String description;
     private String parc;
     private String arrondissement;
-    private BufferedReader bufferedReaderArrondissement;
-    private BufferedReader bufferedReaderDescription;
+
 
 
     public String getDate() {
-<span class="nc" id="L25">        return date;</span>
+<span class="nc" id="L24">        return date;</span>
     }
 
     public String getHeure() {
-<span class="nc" id="L29">        return heure;</span>
+<span class="nc" id="L28">        return heure;</span>
     }
 
     public String getParc() {
-<span class="fc" id="L33">        return parc;</span>
+<span class="fc" id="L32">        return parc;</span>
     }
 
     public String getArrondissement() {
-<span class="fc" id="L37">        return arrondissement;</span>
+<span class="fc" id="L36">        return arrondissement;</span>
     }
 
     public String getDescription() {
-<span class="nc" id="L41">        return description;</span>
+<span class="nc" id="L40">        return description;</span>
     }
     
-<span class="fc" id="L44">    public Intervention(){</span>
+<span class="fc" id="L43">    public Intervention(){</span>
 
-<span class="fc" id="L46">    }</span>
-<span class="fc" id="L47">    public Intervention( String date,String heure,String parc,String arrondissement,String description){</span>
-<span class="fc" id="L48">        this.date=date;</span>
-<span class="fc" id="L49">        this.heure=heure;</span>
-<span class="fc" id="L50">        this.parc=parc;</span>
-<span class="fc" id="L51">        this.arrondissement=arrondissement;</span>
-<span class="fc" id="L52">        this.description=description;</span>
+<span class="fc" id="L45">    }</span>
+<span class="fc" id="L46">    public Intervention( String date,String heure,String parc,String arrondissement,String description){</span>
+<span class="fc" id="L47">        this.date=date;</span>
+<span class="fc" id="L48">        this.heure=heure;</span>
+<span class="fc" id="L49">        this.parc=parc;</span>
+<span class="fc" id="L50">        this.arrondissement=arrondissement;</span>
+<span class="fc" id="L51">        this.description=description;</span>
 
-<span class="fc" id="L54">    }</span>
+<span class="fc" id="L53">    }</span>
 
     public static boolean validerArrondissement(String arrondissement){
-<span class="fc" id="L57">        List&lt;String&gt; listeArrondissement = chargementArrondissementJSON();</span>
-<span class="fc" id="L58">        return listeArrondissement.contains(arrondissement);</span>
+<span class="fc" id="L56">        List&lt;String&gt; listeArrondissement = chargementArrondissementJSON();</span>
+<span class="fc" id="L57">        return listeArrondissement.contains(arrondissement);</span>
     }
 
     /**
@@ -64,13 +63,13 @@ public class Intervention {
      * @return vrai si la liste des types d'interventions contient la l'intevertion(la description)
      */
     public static boolean validerDescription(String description){
-<span class="fc" id="L67">        List&lt;String&gt; listeDescription = chargementDescriptionJSON();</span>
+<span class="fc" id="L66">        List&lt;String&gt; listeDescription = chargementDescriptionJSON();</span>
 
         // si la liste description n'est pas charger
-<span class="pc bpc" id="L70" title="1 of 2 branches missed.">        if(listeDescription == null){</span>
-<span class="nc" id="L71">            chargementDescriptionJSON();</span>
+<span class="pc bpc" id="L69" title="1 of 2 branches missed.">        if(listeDescription == null){</span>
+<span class="nc" id="L70">            chargementDescriptionJSON();</span>
         }
-<span class="fc" id="L73">        return listeDescription.contains(description);</span>
+<span class="fc" id="L72">        return listeDescription.contains(description);</span>
     }
     /**
      * Cette methode lit la liste des interventions dans le fichier JSON inteverntions.json
@@ -80,19 +79,19 @@ public class Intervention {
      */
     public static List&lt;String&gt; chargementDescriptionJSON(){
 
-<span class="fc" id="L83">        List&lt;String&gt; listeDescription = new ArrayList&lt;&gt;();</span>
-<span class="fc" id="L84">        try(FileReader lectureFichierJSON = new FileReader(&quot;json/interventions.json&quot;)) {</span>
-<span class="fc" id="L85">            JsonArray descriptionJSON = JsonParser.parseReader(lectureFichierJSON).getAsJsonObject().getAsJsonArray(&quot;intervention_policiere&quot;);</span>
+<span class="fc" id="L82">        List&lt;String&gt; listeDescription = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L83">        try(FileReader lectureFichierJSON = new FileReader(&quot;json/interventions.json&quot;)) {</span>
+<span class="fc" id="L84">            JsonArray descriptionJSON = JsonParser.parseReader(lectureFichierJSON).getAsJsonObject().getAsJsonArray(&quot;intervention_policiere&quot;);</span>
 
             //ajouter arrondissements dans la liste en string
-<span class="fc bfc" id="L88" title="All 2 branches covered.">            for (int i = 0; i &lt; descriptionJSON.size(); i++) {</span>
-<span class="fc" id="L89">                listeDescription.add(descriptionJSON.get(i).getAsString());</span>
+<span class="fc bfc" id="L87" title="All 2 branches covered.">            for (int i = 0; i &lt; descriptionJSON.size(); i++) {</span>
+<span class="fc" id="L88">                listeDescription.add(descriptionJSON.get(i).getAsString());</span>
             }
-<span class="nc" id="L91">        }catch (IOException e){</span>
-<span class="nc" id="L92">            e.printStackTrace(); // gestion et trace des exceptions</span>
+<span class="nc" id="L90">        }catch (IOException e){</span>
+<span class="nc" id="L91">            e.printStackTrace(); // gestion et trace des exceptions</span>
 
-<span class="fc" id="L94">        }</span>
-<span class="fc" id="L95">        return listeDescription;</span>
+<span class="fc" id="L93">        }</span>
+<span class="fc" id="L94">        return listeDescription;</span>
     }
 
     /**
@@ -102,28 +101,21 @@ public class Intervention {
      * @return la liste des arrondissements
      */
     public static List&lt;String&gt; chargementArrondissementJSON(){
-<span class="fc" id="L105">        List&lt;String&gt; listeArrondissement = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L104">        List&lt;String&gt; listeArrondissement = new ArrayList&lt;&gt;();</span>
 
-<span class="fc" id="L107">        try(FileReader lectureFichierJSON = new FileReader(&quot;json/arrondissements.json&quot;)) {</span>
-<span class="fc" id="L108">            JsonArray arrondissementsJSON = JsonParser.parseReader(lectureFichierJSON).getAsJsonObject().getAsJsonArray(&quot;arrondissements&quot;);</span>
+<span class="fc" id="L106">        try(FileReader lectureFichierJSON = new FileReader(&quot;json/arrondissements.json&quot;)) {</span>
+<span class="fc" id="L107">            JsonArray arrondissementsJSON = JsonParser.parseReader(lectureFichierJSON).getAsJsonObject().getAsJsonArray(&quot;arrondissements&quot;);</span>
 
             //ajouter arrondissements dans la liste en string
-<span class="fc bfc" id="L111" title="All 2 branches covered.">            for (int i = 0; i &lt; arrondissementsJSON.size(); i++) {</span>
-<span class="fc" id="L112">                listeArrondissement.add(arrondissementsJSON.get(i).getAsString());</span>
+<span class="fc bfc" id="L110" title="All 2 branches covered.">            for (int i = 0; i &lt; arrondissementsJSON.size(); i++) {</span>
+<span class="fc" id="L111">                listeArrondissement.add(arrondissementsJSON.get(i).getAsString());</span>
             }
-<span class="nc" id="L114">        }catch (IOException e){</span>
-<span class="nc" id="L115">            e.printStackTrace(); // gestion et trace des exceptions</span>
+<span class="nc" id="L113">        }catch (IOException e){</span>
+<span class="nc" id="L114">            e.printStackTrace(); // gestion et trace des exceptions</span>
 
-<span class="fc" id="L117">        }</span>
-<span class="fc" id="L118">        return listeArrondissement;</span>
+<span class="fc" id="L116">        }</span>
+<span class="fc" id="L117">        return listeArrondissement;</span>
     }
 
-    public void setBufferedReaderArrondissement(BufferedReader mockFileReader) {
-<span class="fc" id="L122">        this.bufferedReaderArrondissement = mockFileReader;</span>
-<span class="fc" id="L123">    }</span>
-
-    public void setBufferedReaderDescription(BufferedReader mockFileReader) {
-<span class="fc" id="L126">        this.bufferedReaderDescription = mockFileReader;</span>
-<span class="fc" id="L127">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

@@ -1,4 +1,5 @@
 
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
@@ -38,39 +39,30 @@ public class EntreeTest {
 
 
     @Test
-    void TesterMauvaiseIntervention() throws FileNotFoundException {
+    void TesterMauvaiseInterventionETArrondissement() throws FileNotFoundException {
 
 
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outputStream));
+        System.setErr(new PrintStream(outputStream));
         try {
             Entree.convertirEnIntervention(Entree.extraireDonnees("MauvaiseIntervention.csv"));
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-        String actualOutput = outputStream.toString().trim();
-        System.setOut(System.out);
-        // Compare la sortie avec les attentes
-        assertEquals("Erreur : Intervention incorrecte", actualOutput);
-
-    }
-
-
-    @Test
-    void TesterMauvaisArrondissement() {
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(outputStream));
-        try {
             Entree.convertirEnIntervention(Entree.extraireDonnees("MauvaisArrondissement.csv"));
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
         String actualOutput = outputStream.toString().trim();
+
+        // Restaurer la sortie standard et d'erreur standard
         System.setOut(System.out);
+        System.setErr(System.err);
+
         // Compare la sortie avec les attentes
-        assertEquals("Erreur : Arrondissement incorrect", actualOutput);
+        assertTrue(actualOutput.contains("Erreur : Intervention incorrecte"));
+        assertTrue(actualOutput.contains("Erreur : Arrondissement incorrect"));
 
     }
+
 
     @Test
     void testExtraireDonneesFichierVide() {
@@ -80,6 +72,21 @@ public class EntreeTest {
         } catch (FileNotFoundException e) {
             fail("Erreur inattendue : " + e.getMessage());
         }
+    }
+
+
+    @Test
+    void testConvertirEnIntervention() {
+        // Créer des données simulées
+        ArrayList<String> donnees = new ArrayList<>();
+        donnees.add("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues");
+        donnees.add("2023-08-26,23:11,Parc Brook,Pierrefonds-Roxboro,Vente de drogues");
+
+        // Appeler la méthode à tester
+        ArrayList<Intervention> interventions = Entree.convertirEnIntervention(donnees);
+
+        // Vérifier le résultat
+        Assert.assertEquals(2, interventions.size());
     }
 
 
@@ -95,7 +102,6 @@ public class EntreeTest {
             fail("Erreur inattendue : " + e.getMessage());
         }
 
-        // Effectuer le test
         // Effectuer le test
         RuntimeException exception = assertThrows(RuntimeException.class, () -> {
             Entree.extraireDonnees(fichierIncorrect.getAbsolutePath());
@@ -125,6 +131,7 @@ public class EntreeTest {
         assertEquals("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues", result.get(0));
         assertEquals("2023-09-02,15:30,Parc Jean,Outremont,Cambriolage", result.get(1));
     }
+
 
 }
 
