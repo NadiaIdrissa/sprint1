@@ -1,11 +1,17 @@
 
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.io.FileNotFoundException;
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.Arrays;
+import java.util.List;
+
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.ArgumentMatchers.anyString;
+import static org.mockito.Mockito.*;
 
 
 public class EntreeTest {
@@ -36,7 +42,6 @@ public class EntreeTest {
     }
 
 
-
     @Test
     void TesterMauvaiseIntervention() throws FileNotFoundException {
 
@@ -57,7 +62,7 @@ public class EntreeTest {
 
 
     @Test
-    void TesterMauvaisArrondissement(){
+    void TesterMauvaisArrondissement() {
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outputStream));
         try {
@@ -71,6 +76,31 @@ public class EntreeTest {
         assertEquals("Erreur : Arrondissement incorrect", actualOutput);
 
     }
+    @Test
+    void testExtraireDonneesAvecMock() throws IOException {
+        // Créez un mock pour BufferedReader
+        BufferedReader mockBufferedReader = mock(BufferedReader.class);
+
+        // Créez une instance de la classe Entree en lui injectant le mock
+        Entree entree = new Entree(mockBufferedReader);
+
+        // Configurez le comportement de mockBufferedReader
+        when(mockBufferedReader.readLine())
+                .thenReturn("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues")
+                .thenReturn(null);  // Returning null to indicate end of file
+
+        // Appelez la méthode que vous souhaitez tester
+        List<String> result = entree.extraireDonnees("Entree.csv");
+
+        // Vérifiez le comportement attendu
+        verify(mockBufferedReader, atLeastOnce()).readLine();
+
+        // Ajoutez des assertions pour vérifier le résultat
+        assertEquals(1, result.size()); // Assurez-vous que la liste résultante a la bonne taille
+        assertEquals("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues", result.get(0));
+    }
+
+
 }
 
 

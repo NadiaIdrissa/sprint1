@@ -1,8 +1,11 @@
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Writer;
 import java.util.*;
 
 public class Sortie {
+
+
     /**
      * Genere un fichier contenant la liste des arrondissements  triés en ordre alphabétique,
      * avec le nombre d'interventions policières qui y ont eu lieu
@@ -97,5 +100,7 @@ public class Sortie {
     }
 
 
+    public void setFileWriter(FileWriter mockFileWriter) {
+    }
 }
 

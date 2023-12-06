@@ -1,12 +1,20 @@
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 /**
  * Cette classe sert a aller extraire les donnees contenues dans un fichier CSV  afin d'en modeliser les
  * interventions  policieres survenues dans les parcs de Montreal
  */
 public class Entree {
+
+    private BufferedReader fileReader;
+
+    public Entree(BufferedReader fileReader){
+        this.fileReader = fileReader;
+    }
+
+
     /**
      * Cette methode va creer une liste qui va extraire les donnees contenues dans le fichier CSV par intervention
      *
@@ -19,8 +27,10 @@ public class Entree {
 
         File fichierCsv = new File(nomFichier);
         Scanner scanner = new Scanner(fichierCsv);
+
         if(!scanner.hasNext()){
             System.out.println("le fichier est vide");
+            return donnees; // Retourne une liste vide si le fichier est vide
         }
 
         // en cas d'erreur va afficher le numero de la ligne en question
@@ -77,4 +87,5 @@ public class Entree {
         }
         return interventions;
     }
+
 }
