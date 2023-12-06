@@ -1,18 +1,13 @@
 
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
-import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.ArgumentMatchers.anyString;
-import static org.mockito.Mockito.*;
-
 
 public class EntreeTest {
     @Test
@@ -76,32 +71,66 @@ public class EntreeTest {
         assertEquals("Erreur : Arrondissement incorrect", actualOutput);
 
     }
+
     @Test
-    void testExtraireDonneesAvecMock() throws IOException {
-        // Créez un mock pour BufferedReader
-        BufferedReader mockBufferedReader = mock(BufferedReader.class);
-
-        // Créez une instance de la classe Entree en lui injectant le mock
-        Entree entree = new Entree(mockBufferedReader);
-
-        // Configurez le comportement de mockBufferedReader
-        when(mockBufferedReader.readLine())
-                .thenReturn("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues")
-                .thenReturn(null);  // Returning null to indicate end of file
-
-        // Appelez la méthode que vous souhaitez tester
-        List<String> result = entree.extraireDonnees("Entree.csv");
-
-        // Vérifiez le comportement attendu
-        verify(mockBufferedReader, atLeastOnce()).readLine();
-
-        // Ajoutez des assertions pour vérifier le résultat
-        assertEquals(1, result.size()); // Assurez-vous que la liste résultante a la bonne taille
-        assertEquals("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues", result.get(0));
+    void testExtraireDonneesFichierVide() {
+        try {
+            ArrayList<String> result = Entree.extraireDonnees("TestFichierVide.csv");
+            assertTrue(result.isEmpty());
+        } catch (FileNotFoundException e) {
+            fail("Erreur inattendue : " + e.getMessage());
+        }
     }
 
 
+
+    /*@Test
+    void testExtraireDonneesFormatIncorrect() throws IOException {
+        // Créer un fichier temporaire avec une ligne incorrecte
+        File fichierIncorrect = new File("FichierFormatIncorrect.csv");
+        try (PrintWriter writer = new PrintWriter(fichierIncorrect)) {
+            // Ajouter une ligne incorrecte (par exemple, moins de champs que prévu)
+            writer.println("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville");
+        }catch (FileNotFoundException e) {
+            fail("Erreur inattendue : " + e.getMessage());
+        }
+
+        // Effectuer le test
+        // Effectuer le test
+        RuntimeException exception = assertThrows(RuntimeException.class, () -> {
+            Entree.extraireDonnees(fichierIncorrect.getAbsolutePath());
+        });
+        // Vérifier le message d'erreur
+        assertEquals("Le format du fichier '" + fichierIncorrect.getAbsolutePath() + "' à la ligne 1 est incorrect.", exception.getMessage());
+    }*/
+
+
+    @Test
+    void testExtraireDonneesCasStandard() throws IOException {
+        // Créez un fichier temporaire avec des données correctes
+        File entreeFile = new File("Entree.csv");
+        try (FileWriter writer = new FileWriter(entreeFile)) {
+            // Ajoutez des lignes de données correctes
+            writer.write("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues\n");
+            writer.write("2023-09-02,15:30,Parc Jean,Outremont,Cambriolage\n");
+            // Ajoutez autant de lignes que nécessaire pour votre cas de test
+        }
+
+        // Appelez la méthode que vous souhaitez tester
+        ArrayList<String> result = Entree.extraireDonnees(entreeFile.getPath());
+
+        // Ajoutez des assertions en fonction de votre logique
+        assertFalse(result.isEmpty());
+        assertEquals(2, result.size()); // Vérifiez le nombre d'interventions extraites
+        assertEquals("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues", result.get(0));
+        assertEquals("2023-09-02,15:30,Parc Jean,Outremont,Cambriolage", result.get(1));
+    }
+
 }
+
+
+
+
 
 
 

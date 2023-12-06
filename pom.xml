@@ -87,6 +87,13 @@
                 </configuration>
             </plugin>
 
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0</version> <!-- Utilisez la dernière version disponible -->
+            </plugin>
+
+
             <!--Jacoco Maven Plugin -->
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -108,6 +115,7 @@
                     </execution>
                 </executions>
             </plugin>
+
 
         </plugins>
         <resources>
