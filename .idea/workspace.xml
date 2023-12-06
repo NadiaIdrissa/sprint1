@@ -5,74 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="verifications">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestAvecMockObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Entree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Intervention.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Intervention.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProgrammePrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProgrammePrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sortie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sortie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EntreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EntreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InterventionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProgrammePrincipalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SortieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Intervention.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Intervention.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProgrammePrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProgrammePrincipal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sortie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sortie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestFichierSortie.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Entree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Entree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Entree.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Entree.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Intervention.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Intervention.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Intervention.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Intervention.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/ProgrammePrincipal.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/ProgrammePrincipal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/ProgrammePrincipal.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/ProgrammePrincipal.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Sortie.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Sortie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Sortie.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Sortie.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/EntreeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/surefire-reports/EntreeTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/InterventionTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/SortieTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/surefire-reports/SortieTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-EntreeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-EntreeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-InterventionTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-SortieTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-SortieTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Entree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/Entree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Entree.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/Entree.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/ProgrammePrincipal.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/ProgrammePrincipal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/ProgrammePrincipal.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/ProgrammePrincipal.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Sortie.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/Sortie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Sortie.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/Sortie.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/EntreeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/EntreeTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/InterventionTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/SortieTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SortieTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-EntreeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-EntreeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-InterventionTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SortieTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SortieTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EntreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EntreeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/InterventionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SortieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SortieTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestAvecMockObject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestAvecMockObject.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestAvecMockObject.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestAvecMockObject.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,35 +54,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_directory_selection": "C:/Users/nadym/OneDrive/Desktop/UQAM/INF2050 - Outils et pratiques de développement logiciel/sprint1/src/main",
-    "last_opened_file_path": "C:/Users/nadym/Downloads/json-simple-1.1.1.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/saski/Desktop/INF2050/sprint1/Tests/src/Main.java",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/nadym/OneDrive/Desktop/UQAM/INF2050 - Outils et pratiques de développement logiciel/sprint1/src/main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nadym/Downloads/json-simple-1.1.1.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/saski/Desktop/INF2050/sprint1/Tests/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -156,10 +98,19 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EntreeTest.testConvertirEnIntervention">
+  <component name="RunManager" selected="JUnit.TestAvecMockObject">
     <configuration name="Sortie.csv" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Sortie" />
       <module name="sprint1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EntreeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,51 +135,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAvecMockObject.testConvertirEnIntervention" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestAvecMockObject" />
-      <option name="METHOD_NAME" value="testConvertirEnIntervention" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="SortieTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAvecMockObject.testExtraireDonnees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAvecMockObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestAvecMockObject" />
-      <option name="METHOD_NAME" value="testExtraireDonnees" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAvecMockObject.testValidationArrondissementEtDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sprint1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestAvecMockObject" />
-      <option name="METHOD_NAME" value="testValidationArrondissementEtDescription" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Sortie.csv" />
+      <item itemvalue="JUnit.EntreeTest" />
+      <item itemvalue="JUnit.SortieTest" />
+      <item itemvalue="JUnit.TestAvecMockObject" />
       <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
       <item itemvalue="JUnit.EntreeTest.testConvertirEnIntervention" />
-      <item itemvalue="JUnit.TestAvecMockObject.testConvertirEnIntervention" />
-      <item itemvalue="JUnit.TestAvecMockObject.testExtraireDonnees" />
-      <item itemvalue="JUnit.TestAvecMockObject.testValidationArrondissementEtDescription" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAvecMockObject" />
+        <item itemvalue="JUnit.EntreeTest" />
+        <item itemvalue="JUnit.SortieTest" />
         <item itemvalue="JUnit.EntreeTest.testConvertirEnIntervention" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
-        <item itemvalue="JUnit.TestAvecMockObject.testExtraireDonnees" />
-        <item itemvalue="JUnit.TestAvecMockObject.testConvertirEnIntervention" />
-        <item itemvalue="JUnit.TestAvecMockObject.testValidationArrondissementEtDescription" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +186,8 @@
       <workItem from="1699998639246" duration="1121000" />
       <workItem from="1700677879651" duration="12000" />
       <workItem from="1701275586873" duration="3043000" />
-      <workItem from="1701873120958" duration="13848000" />
+      <workItem from="1701873120958" duration="14546000" />
+      <workItem from="1701894906190" duration="1505000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
