@@ -14,7 +14,6 @@ public class Entree {
         this.fileReader = fileReader;
     }
 
-
     /**
      * Cette methode va creer une liste qui va extraire les donnees contenues dans le fichier CSV par intervention
      *
@@ -29,12 +28,16 @@ public class Entree {
         Scanner scanner = new Scanner(fichierCsv);
 
         if(!scanner.hasNext()){
-            System.out.println("le fichier est vide");
+            if(ProgrammePrincipal.eng){
+                System.out.println("the file is empty");
+                return donnees;
+            }
+           else{ System.out.println("le fichier est vide");
             return donnees; // Retourne une liste vide si le fichier est vide
-        }
+        }}
 
         // en cas d'erreur va afficher le numero de la ligne en question
-        int numeroLigne = 1;
+        int numeroLigne = 2;
 
         // Ajout de cette ligne pour lire la première ligne
         donnees.add(scanner.nextLine());
@@ -46,9 +49,13 @@ public class Entree {
             if(donnee.split(",").length != 5){
                 //affiche l'erreur et arret du programme
                 //throw new RuntimeException("Le format du fichier '" + nomFichier + "' à la ligne " + numeroLigne + " est incorrect.");
-
-                System.err.println("Erreur dans le fichier '" + nomFichier + "' à la ligne " + numeroLigne + " : Le nombre de champs est incorrect.");
-                System.exit(1);
+                if(ProgrammePrincipal.eng){
+                    System.err.println("Error in the file " + nomFichier + " at the line " + numeroLigne + " : The number of fields is incorrect.");
+                    System.exit(1);
+                }
+                else{
+                System.err.println("Erreur dans le fichier " + nomFichier + " à la ligne " + numeroLigne + " : Le nombre de champs est incorrect.");
+                System.exit(1);}
             }
 
             donnees.add(donnee);
@@ -80,9 +87,15 @@ public class Entree {
             String arrondissement = information[3]; // l'arrondissement est à l'indice 3
             // verification de l'arrondissement et de la description avant la creation d'une intervention
             if(!Intervention.validerDescription(description)) {
-                System.out.println("Erreur : Intervention incorrecte");
+                if(ProgrammePrincipal.eng){
+                    System.err.println("Error: Incorrect intervention");
+                }
+                else{System.err.println("Erreur : Intervention incorrecte");}
             }else if(!Intervention.validerArrondissement(arrondissement)) {
-                System.out.println("Erreur : Arrondissement incorrect");
+                if(ProgrammePrincipal.eng){
+                    System.err.println("Error: Incorrect district");
+                }
+               else{ System.err.println("Erreur : Arrondissement incorrect");}
             }
             else  {
 

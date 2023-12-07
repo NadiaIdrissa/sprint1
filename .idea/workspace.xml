@@ -5,9 +5,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="verifications">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entree.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Entree.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sortie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Sortie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProgrammePrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProgrammePrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sortie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sortie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entree.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entree.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProgrammePrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProgrammePrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sortie$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sortie$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sortie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sortie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Entree.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/Entree.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Entree.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/default/Intervention.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/default/Intervention.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/default/Intervention.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/default/Intervention.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/default/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/default/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/default/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/default/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/EntreeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/EntreeTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/SortieTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/SortieTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/TEST-EntreeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/TEST-EntreeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/TEST-SortieTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/TEST-SortieTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/TEST-TestAvecMockObject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/TEST-TestAvecMockObject.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/TestAvecMockObject.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/surefire-reports/TestAvecMockObject.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/default/Intervention.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/default/Intervention.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/default/Intervention.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/default/Intervention.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/default/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/default/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/default/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/default/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/EntreeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/EntreeTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/SortieTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/SortieTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/TEST-EntreeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/TEST-EntreeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/TEST-SortieTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/TEST-SortieTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/TEST-TestAvecMockObject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/TEST-TestAvecMockObject.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/TestAvecMockObject.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/surefire-reports/TestAvecMockObject.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Intervention.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Intervention.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Intervention.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/Intervention.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/default/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/EntreeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/surefire-reports/EntreeTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/SortieTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/surefire-reports/SortieTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-EntreeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-EntreeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-SortieTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-SortieTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-TestAvecMockObject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-TestAvecMockObject.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TestAvecMockObject.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/surefire-reports/TestAvecMockObject.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/default/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/EntreeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/EntreeTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/SortieTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SortieTest.txt" afterDir="false" />
@@ -15,6 +87,7 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SortieTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SortieTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestAvecMockObject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestAvecMockObject.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestAvecMockObject.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestAvecMockObject.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EntreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EntreeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +171,15 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAvecMockObject">
+  <component name="RunManager" selected="Application.ProgrammePrincipal">
+    <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
+      <module name="sprint1" />
+      <option name="PROGRAM_PARAMETERS" value="--english Entree.csv Sortie.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sortie.csv" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Sortie" />
       <module name="sprint1" />
@@ -144,30 +225,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAvecMockObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sprint1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestAvecMockObject" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.ProgrammePrincipal" />
       <item itemvalue="Application.Sortie.csv" />
       <item itemvalue="JUnit.EntreeTest" />
       <item itemvalue="JUnit.SortieTest" />
-      <item itemvalue="JUnit.TestAvecMockObject" />
       <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
       <item itemvalue="JUnit.EntreeTest.testConvertirEnIntervention" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAvecMockObject" />
-        <item itemvalue="JUnit.EntreeTest" />
-        <item itemvalue="JUnit.SortieTest" />
-        <item itemvalue="JUnit.EntreeTest.testConvertirEnIntervention" />
         <item itemvalue="JUnit.EntreeTest.TesterMauvaiseIntervention" />
+        <item itemvalue="JUnit.SortieTest" />
+        <item itemvalue="JUnit.EntreeTest" />
+        <item itemvalue="JUnit.EntreeTest.testConvertirEnIntervention" />
       </list>
     </recent_temporary>
   </component>
@@ -291,8 +362,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sprint1$EntreeTest.ic" NAME="EntreeTest Coverage Results" MODIFIED="1700016724772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/sprint1$Main.ic" NAME="Main Coverage Results" MODIFIED="1699958805022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/sprint1$ProgrammePrincipal.ic" NAME="ProgrammePrincipal Coverage Results" MODIFIED="1700001458463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/sprint1$Main.ic" NAME="Main Coverage Results" MODIFIED="1699958805022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/sprint1$EntreeTest.ic" NAME="EntreeTest Coverage Results" MODIFIED="1700016724772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

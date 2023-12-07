@@ -18,8 +18,12 @@ public class Sortie {
         interventions = trierArrondissement(interventions);
 
         try (FileWriter writer = new FileWriter(sortieCSV)) {
-            writer.write("Arrondissement,Nombre d'interventions, Nombre de parcs \n");
-
+            if(ProgrammePrincipal.eng){
+                writer.write("Number of districts,Nomber of interventions, Nomber of parks \n");
+            }
+            else {
+                writer.write("Arrondissement,Nombre d'interventions, Nombre de parcs \n");
+            }
             for (Intervention event : interventions) {
                 String arrondissement = event.getArrondissement();
 
