@@ -27,8 +27,8 @@ public static boolean eng=false;
                 System.out.println("Successful execution. The results are saved to the file  " + sortieCSV + "'.");
 
             } catch (FileNotFoundException e) {
-                System.err.println("Error: File not found - " + e.getMessage() +"\n" + "the first parameter is --english the second " +
-                        "is the path/to/your/inputfile ,the 3rd the path/to/your/outputfile");
+                System.err.println( "\n Error: File not found - " + e.getMessage() +" \n ~ \n the first parameter should be  --english the second " +
+                        " the path/to/your/inputfile and the 3rd the path/to/your/outputfile \n ~" );
                 e.printStackTrace();
             }catch (IOException e) {
                 System.err.println("Input/output error - " + e.getMessage());

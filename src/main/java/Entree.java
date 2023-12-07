@@ -29,15 +29,15 @@ public class Entree {
 
         if(!scanner.hasNext()){
             if(ProgrammePrincipal.eng){
-                System.out.println("the file is empty");
+                System.err.println("the file is empty");
                 return donnees;
             }
-           else{ System.out.println("le fichier est vide");
+           else{ System.err.println("le fichier est vide");
             return donnees; // Retourne une liste vide si le fichier est vide
         }}
 
         // en cas d'erreur va afficher le numero de la ligne en question
-        int numeroLigne = 2;
+        int numeroLigne = 1;
 
         // Ajout de cette ligne pour lire la première ligne
         donnees.add(scanner.nextLine());
@@ -80,28 +80,34 @@ public class Entree {
      */
     public static ArrayList<Intervention> convertirEnIntervention(ArrayList<String> donnees){
         ArrayList<Intervention> interventions = new ArrayList<>();
-
+        int ligne=1;
         for (int i = 0; i < donnees.size(); i++){
+
             String [] information = separerDonneePourUneIntervention(donnees.get(i));
             String description = information[4]; // la description est à l'indice 4
             String arrondissement = information[3]; // l'arrondissement est à l'indice 3
             // verification de l'arrondissement et de la description avant la creation d'une intervention
             if(!Intervention.validerDescription(description)) {
                 if(ProgrammePrincipal.eng){
-                    System.err.println("Error: Incorrect intervention");
+
+                    System.err.println("Error: Incorrect intervention at the ligne "+ligne);
                 }
-                else{System.err.println("Erreur : Intervention incorrecte");}
+                else{System.err.println("Erreur : Intervention incorrecte a la ligne "+ ligne);}
+
             }else if(!Intervention.validerArrondissement(arrondissement)) {
                 if(ProgrammePrincipal.eng){
-                    System.err.println("Error: Incorrect district");
+                    System.err.println("Error: Incorrect district at the ligne "+ligne);
                 }
-               else{ System.err.println("Erreur : Arrondissement incorrect");}
+               else{ System.err.println("Erreur : Arrondissement incorrect a la ligne " + ligne);}
+
             }
             else  {
 
                 Intervention intervention = new Intervention(information[0], information[1], information[2], arrondissement, description);
                 interventions.add(intervention);
-            }
+
+            }ligne++;
+
         }
         return interventions;
     }
