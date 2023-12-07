@@ -15,7 +15,7 @@ public static boolean eng=false;
             String sortieCSV = args[2];
             Locale.setDefault(Locale.ENGLISH);
             if (args.length != 3) {
-                System.out.println("file not found");
+                System.out.println("\n file not found");
                 return;
             }
 
@@ -24,14 +24,14 @@ public static boolean eng=false;
                 ArrayList<String> data = Entree.extraireDonnees(entreeCSV);
                 ArrayList<Intervention> evenements = Entree.convertirEnIntervention(data);
                 Sortie.sauvegarderListeDesInterventionsDansSortieCSV(evenements, sortieCSV);
-                System.out.println("Successful execution. The results are saved to the file  " + sortieCSV + "'.");
+                System.out.println("\n Successful execution. The results are saved to the file  " + sortieCSV + ".");
 
             } catch (FileNotFoundException e) {
                 System.err.println( "\n Error: File not found - " + e.getMessage() +" \n ~ \n the first parameter should be  --english the second " +
                         " the path/to/your/inputfile and the 3rd the path/to/your/outputfile \n ~" );
                 e.printStackTrace();
             }catch (IOException e) {
-                System.err.println("Input/output error - " + e.getMessage());
+                System.err.println("\n Input/output error - " + e.getMessage());
                 e.printStackTrace();
             }
         }
@@ -45,18 +45,18 @@ public static boolean eng=false;
             ArrayList<String> data = Entree.extraireDonnees(entreeCSV);
             ArrayList<Intervention> evenements = Entree.convertirEnIntervention(data);
             Sortie.sauvegarderListeDesInterventionsDansSortieCSV(evenements, sortieCSV);
-            System.out.println("Exécution réussie. Les résultats sont enregistrés dans le fichier '" + sortieCSV + "'.");
+            System.out.println(" \n Exécution réussie. Les résultats sont enregistrés dans le fichier '" + sortieCSV + ".");
 
         } catch (FileNotFoundException e) {
-            System.err.println("Erreur: Fichier introuvable - " + e.getMessage());
+            System.err.println(" \n Erreur: Fichier introuvable - " + e.getMessage());
             e.printStackTrace();
         }catch (IOException e) {
-            System.err.println("Erreur d'entrée/sortie - " + e.getMessage());
+            System.err.println("\n Erreur d'entrée/sortie - " + e.getMessage());
             e.printStackTrace();
         }
     }
   else{
-            System.out.println("Fichier introuvable");
+            System.out.println("\n Fichier introuvable");
             return;
         }
 

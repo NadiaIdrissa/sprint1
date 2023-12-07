@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="ajout de l'otion en anglais,modifications des messages d'erreurs ,changement de l'entete du fichier de sortie.">
+    <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="aide aux parametres en anglais">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entree.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Entree.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sortie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Sortie.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Entree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ProgrammePrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProgrammePrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SortieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entree.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entree.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ProgrammePrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProgrammePrincipal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Sortie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sortie.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Entree.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/Entree.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Sortie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/Sortie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Sortie.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +98,7 @@
     <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
       <module name="sprint1" />
-      <option name="PROGRAM_PARAMETERS" value="--english Entr.csv Sortie.csv" />
+      <option name="PROGRAM_PARAMETERS" value="--english Entree.csv Sortie.csv" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701917499197</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="aide aux parametres en anglais">
+      <option name="closed" value="true" />
+      <created>1701920208560</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701920208561</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +296,8 @@
     <MESSAGE value="tests completé" />
     <MESSAGE value="verifications" />
     <MESSAGE value="ajout de l'otion en anglais,modifications des messages d'erreurs ,changement de l'entete du fichier de sortie." />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout de l'otion en anglais,modifications des messages d'erreurs ,changement de l'entete du fichier de sortie." />
+    <MESSAGE value="aide aux parametres en anglais" />
+    <option name="LAST_COMMIT_MESSAGE" value="aide aux parametres en anglais" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
