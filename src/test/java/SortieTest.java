@@ -59,7 +59,7 @@ public class SortieTest {
           String resultatActuel= Files.readString(Path.of("SortieFichiertest.csv"));
           assertEquals(resultatVoulu,resultatActuel);
       }
-      //lecture fichier json d'entree et sortie fichier
+
 
 
 }
