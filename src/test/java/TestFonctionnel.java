@@ -32,8 +32,6 @@ public class TestFonctionnel {
         System.out.println("Redirection de la sortie standard");
         System.setOut(new PrintStream(new ByteArrayOutputStream()));
 
-        //exit.expectSystemExitWithStatus(0);
-
         // Exécuter le programme principal
         ProgrammePrincipal.main(new String[]{entreeCsvPath.toString(), sortieCsvPath.toString()});
 
@@ -46,11 +44,15 @@ public class TestFonctionnel {
         // Nettoyer les fichiers temporaires
         Files.deleteIfExists(sortieCsvPath);
     }
-/*
+
     @Test
     public void testExcutionAnglaisReussie() throws IOException {
         // Créer un fichier d'entrée CSV et de sortie CSV
-        String entreeCSVAnglais = "entreeTestAnglaisReussi.csv";
+        Path  entreeCSVAnglais = Files.createTempFile("executionReussiTest", ".csv");
+        FileWriter entreeCsvWriter = new FileWriter( entreeCSVAnglais.toFile());
+        entreeCsvWriter.write("2023-09-01,20:41,Parc Camille,Outremont,Vente de drogues\n");
+        entreeCsvWriter.close();
+
 
         List<String> donnee  = new ArrayList<>();
         donnee.add("2023-09-02,15:30,Parc Jean,Outremont,Vente de drogues");
@@ -58,25 +60,30 @@ public class TestFonctionnel {
 
         Path fichierTempAnglais = Files.createTempFile("fichierAnglaisReussi ",".csv");
         Files.write(fichierTempAnglais,donnee);
+        System.setOut(new PrintStream(new ByteArrayOutputStream()));
+        ProgrammePrincipal.main(new String[]{"--english", entreeCSVAnglais.toString(), fichierTempAnglais.toString()});
 
-        ProgrammePrincipal.main(new String[]{"--english", entreeCSVAnglais, fichierTempAnglais.toString()});
+
         // verifie les messages afficher dans la console
-        PrintStream affichageConsole = System.out;
 
-        System.setOut(new PrintStream(affichageConsole));
-        assertEquals("\n Successful execution. The results are saved to the file  fichierAnglaisReussi.csv.","one");
-        List<String> sortieEnAnglaisReussi= Files.readAllLines(Paths.get(fichierTempAnglais.toUri()));
+        //System.setOut(new PrintStream(affichageConsole));
+        //assertEquals("\n Successful execution. The results are saved to the file  fichierAnglaisReussi.csv.",;
+        List<String> sortieEnAnglaisReussi= Files.readAllLines(fichierTempAnglais);
+
+        // formatage du fichier Anglais
         List<String> fichierEnAnglaisAttendu = new ArrayList<>();
         fichierEnAnglaisAttendu.add("Number of districts,Number of interventions, Number of parks ");
-        fichierEnAnglaisAttendu.add("Ahuntsic-Cartierville,1,1");
-
+        fichierEnAnglaisAttendu.add("Outremont,1,1");
+        // test la grandeur et le contenu du fichier
+        assertEquals(2, fichierEnAnglaisAttendu.size());
         assertEquals(fichierEnAnglaisAttendu.get(0),sortieEnAnglaisReussi.get(0));
-        //assertEquals(fichierEnAnglaisAttendu.get(1),sortieEnAnglaisReussi.get(1));
+        assertEquals(fichierEnAnglaisAttendu.get(1),sortieEnAnglaisReussi.get(1));
 
+        // fermeture du fichier temporaire
         Files.deleteIfExists(fichierTempAnglais);
 
     }
-
+/*
     @Test
     public void testFichierIntrouvable() {
 

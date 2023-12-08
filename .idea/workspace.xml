@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="aide aux parametres en anglais">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sprint1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sprint1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sortie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sortie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestFonctionnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFonctionnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/sprint1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.idea/sprint1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
     "Downloaded.Files.Path.Enabled": "true",
     "JUnit.TestFonctionnel.executor": "Run",
     "JUnit.TestFonctionnel.testExcutionAnglaisReussie.executor": "Run",
-    "JUnit.TestFonctionnel.testExecutionReussie.executor": "Debug",
+    "JUnit.TestFonctionnel.testExecutionReussie.executor": "Run",
     "JUnit.TestFonctionnel.testFichierIntrouvable.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -100,7 +97,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestFonctionnel.testExecutionReussie">
+  <component name="RunManager" selected="JUnit.TestFonctionnel.testExcutionAnglaisReussie">
     <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
       <module name="sprint1" />
@@ -176,9 +173,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestFonctionnel.testExcutionAnglaisReussie" />
         <item itemvalue="JUnit.TestFonctionnel.testExecutionReussie" />
         <item itemvalue="JUnit.TestFonctionnel" />
-        <item itemvalue="JUnit.TestFonctionnel.testExcutionAnglaisReussie" />
         <item itemvalue="JUnit.TestFonctionnel.testFichierIntrouvable" />
         <item itemvalue="JUnit.EntreeTest" />
       </list>
@@ -209,7 +206,7 @@
       <workItem from="1701873120958" duration="14546000" />
       <workItem from="1701894906190" duration="1505000" />
       <workItem from="1702013788538" duration="10117000" />
-      <workItem from="1702055735625" duration="3644000" />
+      <workItem from="1702055735625" duration="5927000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />

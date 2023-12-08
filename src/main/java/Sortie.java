@@ -19,7 +19,7 @@ public class Sortie {
 
         try (FileWriter writer = new FileWriter(sortieCSV)) {
             if(ProgrammePrincipal.eng){
-                writer.write("Number of districts,Nomber of interventions, Nomber of parks \n");
+                writer.write("Number of districts,Number of interventions, Number of parks \n");
             }
             else {
                 writer.write("Arrondissement,Nombre d'interventions, Nombre de parcs \n");
