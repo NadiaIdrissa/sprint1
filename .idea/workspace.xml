@@ -6,54 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="aide aux parametres en anglais">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sortie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Sortie.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestFonctionnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFonctionnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Entree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Entree.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/ProgrammePrincipal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/ProgrammePrincipal.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Sortie$1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Sortie.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Sortie.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/EntreeTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SortieTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-EntreeTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SortieTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestAvecMockObject.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestAvecMockObject.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestFonctionnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestFonctionnel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +51,9 @@
   "keyToString": {
     "Application.ProgrammePrincipal.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.EntreeTest.executor": "Run",
     "JUnit.EntreeTest.testExtraireDonneesFormatIncorrect.executor": "Run",
+    "JUnit.SortieTest.executor": "Run",
     "JUnit.TestFonctionnel.executor": "Run",
     "JUnit.TestFonctionnel.testExcutionAnglaisReussie.executor": "Run",
     "JUnit.TestFonctionnel.testExecutionReussie.executor": "Run",
@@ -145,7 +100,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortieTest">
+  <component name="RunManager" selected="JUnit.TestFonctionnel">
     <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
       <module name="sprint1" />
@@ -220,9 +175,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestFonctionnel" />
         <item itemvalue="JUnit.SortieTest" />
         <item itemvalue="JUnit.EntreeTest" />
-        <item itemvalue="JUnit.TestFonctionnel" />
         <item itemvalue="JUnit.TestFonctionnel.testExecutionReussie" />
         <item itemvalue="JUnit.EntreeTest.testExtraireDonneesFormatIncorrect" />
       </list>
