@@ -4,16 +4,16 @@ import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions.*;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintStream;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import static java.nio.file.Files.deleteIfExists;
+import static org.junit.Assert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestFonctionnel {
@@ -66,14 +66,12 @@ public class TestFonctionnel {
 
         // verifie les messages afficher dans la console
 
-        //System.setOut(new PrintStream(affichageConsole));
-        //assertEquals("\n Successful execution. The results are saved to the file  fichierAnglaisReussi.csv.",;
         List<String> sortieEnAnglaisReussi= Files.readAllLines(fichierTempAnglais);
-
         // formatage du fichier Anglais
         List<String> fichierEnAnglaisAttendu = new ArrayList<>();
         fichierEnAnglaisAttendu.add("Number of districts,Number of interventions, Number of parks ");
         fichierEnAnglaisAttendu.add("Outremont,1,1");
+
         // test la grandeur et le contenu du fichier
         assertEquals(2, fichierEnAnglaisAttendu.size());
         assertEquals(fichierEnAnglaisAttendu.get(0),sortieEnAnglaisReussi.get(0));
@@ -83,33 +81,5 @@ public class TestFonctionnel {
         Files.deleteIfExists(fichierTempAnglais);
 
     }
-/*
-    @Test
-    public void testFichierIntrouvable() {
 
-        String messageAttendu = " \n Erreur: Fichier introuvable - fichierErronne.csv (The system cannot find the file specified)";
-
-        ByteArrayOutputStream sortie = new ByteArrayOutputStream();
-        ByteArrayOutputStream erreurSortie = new ByteArrayOutputStream();
-        PrintStream sortieOriginal = System.out;
-        PrintStream errConsoleOriginal = System.err;
-
-        //Lancement du programme
-        try {
-            ProgrammePrincipal.main(new String[]{"fichierErronne.csv", "sortieTest.csv"});
-            System.setOut(new PrintStream(sortie));
-            System.setErr(new PrintStream(erreurSortie));
-            String affichageConsole = sortie.toString();
-            // capture du message d'erreur
-            String affichageErreurConsole = erreurSortie.toString();
-
-            assertEquals(messageAttendu, affichageConsole.trim());
-            assertEquals(errConsoleOriginal, affichageErreurConsole.trim());
-        }finally {
-
-            System.setOut(sortieOriginal);
-            System.setErr(errConsoleOriginal);
-        }
-    }
-    */
 }

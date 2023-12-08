@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="aide aux parametres en anglais">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sortie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sortie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlanDeTests.md" beforeDir="false" afterPath="$PROJECT_DIR$/PlanDeTests.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestFonctionnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFonctionnel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PlanDeTests.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PlanDeTests.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -97,11 +98,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestFonctionnel.testExcutionAnglaisReussie">
+  <component name="RunManager" selected="Application.ProgrammePrincipal">
     <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
       <module name="sprint1" />
-      <option name="PROGRAM_PARAMETERS" value="--english Entree.csv Sortietest.csv" />
+      <option name="PROGRAM_PARAMETERS" value="Entree.csv" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,7 +207,7 @@
       <workItem from="1701873120958" duration="14546000" />
       <workItem from="1701894906190" duration="1505000" />
       <workItem from="1702013788538" duration="10117000" />
-      <workItem from="1702055735625" duration="5927000" />
+      <workItem from="1702055735625" duration="10485000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
@@ -331,15 +332,6 @@
           <url>file://$PROJECT_DIR$/Test/src/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/TestFonctionnel.java</url>
-          <line>20</line>
-          <properties class="TestFonctionnel" method="testExecutionReussie">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
