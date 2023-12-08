@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestAvecMockObject" time="1.771" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestAvecMockObject" time="1.761" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\nadym\AppData\Local\Temp\surefire3657283363231867365\surefirebooter-20231208163753082_3.jar C:\Users\nadym\AppData\Local\Temp\surefire3657283363231867365 2023-12-08T16-37-52_718-jvmRun1 surefire-20231208163753082_1tmp surefire_0-20231208163753082_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\nadym\AppData\Local\Temp\surefire2973967933505149267\surefirebooter-20231208170612126_3.jar C:\Users\nadym\AppData\Local\Temp\surefire2973967933505149267 2023-12-08T17-06-11_737-jvmRun1 surefire-20231208170612126_1tmp surefire_0-20231208170612126_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\nadym\OneDrive\Desktop\UQAM\INF2050 - Outils et pratiques de développement logiciel\sprint1\target\test-classes;C:\Users\nadym\OneDrive\Desktop\UQAM\INF2050 - Outils et pratiques de développement logiciel\sprint1\target\classes;C:\Users\nadym\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\nadym\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\nadym\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\nadym\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nadym\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\nadym\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\nadym\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\nadym\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nadym\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\nadym\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\nadym\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\nadym\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\nadym\.m2\repository\org\mockito\mockito-core\3.11.2\mockito-core-3.11.2.jar;C:\Users\nadym\.m2\repository\net\bytebuddy\byte-buddy\1.11.3\byte-buddy-1.11.3.jar;C:\Users\nadym\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.3\byte-buddy-agent-1.11.3.jar;C:\Users\nadym\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\nadym\AppData\Local\Temp\surefire3657283363231867365\surefirebooter-20231208163753082_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nadym\AppData\Local\Temp\surefire2973967933505149267\surefirebooter-20231208170612126_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -56,6 +56,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testValidationArrondissementEtDescription" classname="TestAvecMockObject" time="1.761"/>
+  <testcase name="testValidationArrondissementEtDescription" classname="TestAvecMockObject" time="1.754"/>
   <testcase name="testExtraireDonnees" classname="TestAvecMockObject" time="0.004"/>
 </testsuite>

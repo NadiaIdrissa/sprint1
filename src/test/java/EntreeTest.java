@@ -91,6 +91,29 @@ public class EntreeTest {
 
 
     @Test
+    void testExtraireDonneesFormatIncorrect() {
+        // Créer un fichier temporaire avec une ligne incorrecte
+        File fichierIncorrect = new File("FichierFormatIncorrect.csv");
+        try (PrintWriter writer = new PrintWriter(fichierIncorrect)) {
+            // Ajouter une ligne incorrecte (par exemple, moins de champs que prévu)
+            writer.println("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville");
+        } catch (IOException e) {
+            fail("Erreur inattendue : " + e.getMessage());
+        }
+
+        // Effectuer le test
+        try {
+            Entree.extraireDonnees(fichierIncorrect.getAbsolutePath());
+        } catch (Exception e) {
+            // Vérifier le message d'erreur
+            assertEquals("Le format du fichier '" + fichierIncorrect.getAbsolutePath() + "' à la ligne 1 est incorrect.", e.getMessage());
+        }
+    }
+
+
+
+
+    @Test
     void testExtraireDonneesCasStandard() throws IOException {
         // Créez un fichier temporaire avec des données correctes
         File entreeFile = new File("Entree.csv");
