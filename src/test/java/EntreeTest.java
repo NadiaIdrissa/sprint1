@@ -79,6 +79,7 @@ public class EntreeTest {
     void testConvertirEnIntervention() {
         // Créer des données simulées
         ArrayList<String> donnees = new ArrayList<>();
+        donnees.add("Date,Heure,Parc,Arrondissement,Description");
         donnees.add("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues");
         donnees.add("2023-08-26,23:11,Parc Brook,Pierrefonds-Roxboro,Vente de drogues");
 

@@ -81,7 +81,7 @@ public class Entree {
     public static ArrayList<Intervention> convertirEnIntervention(ArrayList<String> donnees){
         ArrayList<Intervention> interventions = new ArrayList<>();
         int ligne=1;
-        for (int i = 0; i < donnees.size(); i++){
+        for (int i = 1; i < donnees.size(); i++){
 
             String [] information = separerDonneePourUneIntervention(donnees.get(i));
             String description = information[4]; // la description est à l'indice 4

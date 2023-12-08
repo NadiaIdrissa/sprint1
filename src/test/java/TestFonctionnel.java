@@ -15,6 +15,7 @@ public class TestFonctionnel {
         // Créer un fichier d'entrée CSV simulé
         Path entreeCsvPath = Files.createTempFile("executionReussiTest", ".csv");
         FileWriter entreeCsvWriter = new FileWriter(entreeCsvPath.toFile());
+        entreeCsvWriter.write("Date,Heure,Parc,Arrondissement,Description\n");
         entreeCsvWriter.write("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues\n");
         entreeCsvWriter.close();
 
@@ -30,6 +31,7 @@ public class TestFonctionnel {
 
         // Vérifier les résultats dans le fichier de sortie
         List<String> lines = Files.readAllLines(sortieCsvPath);
+
         assertEquals(2, lines.size());
         assertEquals("Arrondissement,Nombre d'interventions, Nombre de parcs ", lines.get(0));
         assertEquals("Ahuntsic-Cartierville,1,1", lines.get(1));

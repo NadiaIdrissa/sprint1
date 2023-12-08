@@ -6,32 +6,54 @@
   <component name="ChangeListManager">
     <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="aide aux parametres en anglais">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EntreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EntreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entree.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SortieFichiertest.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/EntreeTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/SortieTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-EntreeTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-SortieTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-TestAvecMockObject.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TEST-TestFonctionnel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TestAvecMockObject.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/surefire-reports/TestFonctionnel.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/EntreeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/EntreeTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SortieTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SortieTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-EntreeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-EntreeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SortieTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SortieTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestAvecMockObject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestAvecMockObject.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestFonctionnel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestFonctionnel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestAvecMockObject.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestAvecMockObject.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestFonctionnel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestFonctionnel.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EntreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EntreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sortie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Sortie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestFonctionnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFonctionnel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Entree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Entree.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Intervention.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/ProgrammePrincipal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/ProgrammePrincipal.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Sortie$1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Sortie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Sortie.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/EntreeTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SortieTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-EntreeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SortieTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestAvecMockObject.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestAvecMockObject.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestFonctionnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestFonctionnel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,41 +94,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ProgrammePrincipal.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;JUnit.TestFonctionnel.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestFonctionnel.testExcutionAnglaisReussie.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestFonctionnel.testExecutionReussie.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestFonctionnel.testFichierIntrouvable.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/nadym/OneDrive/Desktop/UQAM/INF2050 - Outils et pratiques de développement logiciel/sprint1/src/main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nadym/Downloads/json-simple-1.1.1.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/saski/Desktop/INF2050/sprint1/Tests/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ProgrammePrincipal.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.EntreeTest.testExtraireDonneesFormatIncorrect.executor": "Run",
+    "JUnit.TestFonctionnel.executor": "Run",
+    "JUnit.TestFonctionnel.testExcutionAnglaisReussie.executor": "Run",
+    "JUnit.TestFonctionnel.testExecutionReussie.executor": "Run",
+    "JUnit.TestFonctionnel.testFichierIntrouvable.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/nadym/OneDrive/Desktop/UQAM/INF2050 - Outils et pratiques de développement logiciel/sprint1/src/main",
+    "last_opened_file_path": "C:/Users/nadym/Downloads/json-simple-1.1.1.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/saski/Desktop/INF2050/sprint1/Tests/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -122,7 +145,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EntreeTest.testExtraireDonneesFormatIncorrect">
+  <component name="RunManager" selected="JUnit.SortieTest">
     <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
       <module name="sprint1" />
@@ -138,6 +161,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EntreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EntreeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EntreeTest.testExtraireDonneesFormatIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint1" />
       <option name="PACKAGE_NAME" value="" />
@@ -148,12 +180,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntreeTest.testExtraireDonneesFormatIncorrects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EntreeTest" />
-      <option name="METHOD_NAME" value="testExtraireDonneesFormatIncorrects" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="SortieTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,16 +195,6 @@
       <option name="MAIN_CLASS_NAME" value="TestFonctionnel" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFonctionnel.testExcutionAnglaisReussie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sprint1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestFonctionnel" />
-      <option name="METHOD_NAME" value="testExcutionAnglaisReussie" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,19 +212,19 @@
     <list>
       <item itemvalue="Application.ProgrammePrincipal" />
       <item itemvalue="Application.Sortie.csv" />
+      <item itemvalue="JUnit.EntreeTest" />
+      <item itemvalue="JUnit.SortieTest" />
       <item itemvalue="JUnit.EntreeTest.testExtraireDonneesFormatIncorrect" />
-      <item itemvalue="JUnit.EntreeTest.testExtraireDonneesFormatIncorrects" />
       <item itemvalue="JUnit.TestFonctionnel.testExecutionReussie" />
       <item itemvalue="JUnit.TestFonctionnel" />
-      <item itemvalue="JUnit.TestFonctionnel.testExcutionAnglaisReussie" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EntreeTest.testExtraireDonneesFormatIncorrect" />
-        <item itemvalue="JUnit.EntreeTest.testExtraireDonneesFormatIncorrects" />
-        <item itemvalue="JUnit.TestFonctionnel.testExcutionAnglaisReussie" />
-        <item itemvalue="JUnit.TestFonctionnel.testExecutionReussie" />
+        <item itemvalue="JUnit.SortieTest" />
+        <item itemvalue="JUnit.EntreeTest" />
         <item itemvalue="JUnit.TestFonctionnel" />
+        <item itemvalue="JUnit.TestFonctionnel.testExecutionReussie" />
+        <item itemvalue="JUnit.EntreeTest.testExtraireDonneesFormatIncorrect" />
       </list>
     </recent_temporary>
   </component>
