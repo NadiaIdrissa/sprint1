@@ -1,19 +1,12 @@
 import org.apache.commons.io.output.ByteArrayOutputStream;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions.*;
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
-import static java.nio.file.Files.deleteIfExists;
-import static org.junit.Assert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestFonctionnel {
