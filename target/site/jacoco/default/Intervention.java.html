@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Intervention.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">sprint1</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">Intervention.java</span></div><h1>Intervention.java</h1><pre class="source lang-java linenums">import com.google.gson.JsonArray;
+import com.google.gson.JsonParser;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * La classe intervention modelise les interventions policieres. Chaque intervention policiere peut etre
+ * identifiee par une date,une heure,une description,le parc et l'arrondissement ou s est passe celle-ci.
+ */
+public class Intervention {
+    private String date;
+    private String heure;
+    private String description;
+    private String parc;
+    private String arrondissement;
+
+
+
+    public String getDate() {
+<span class="nc" id="L24">        return date;</span>
+    }
+
+    public String getHeure() {
+<span class="nc" id="L28">        return heure;</span>
+    }
+
+    public String getParc() {
+<span class="fc" id="L32">        return parc;</span>
+    }
+
+    public String getArrondissement() {
+<span class="fc" id="L36">        return arrondissement;</span>
+    }
+
+    public String getDescription() {
+<span class="nc" id="L40">        return description;</span>
+    }
+    
+<span class="fc" id="L43">    public Intervention(){</span>
+
+<span class="fc" id="L45">    }</span>
+<span class="fc" id="L46">    public Intervention( String date,String heure,String parc,String arrondissement,String description){</span>
+<span class="fc" id="L47">        this.date=date;</span>
+<span class="fc" id="L48">        this.heure=heure;</span>
+<span class="fc" id="L49">        this.parc=parc;</span>
+<span class="fc" id="L50">        this.arrondissement=arrondissement;</span>
+<span class="fc" id="L51">        this.description=description;</span>
+
+<span class="fc" id="L53">    }</span>
+
+    public static boolean validerArrondissement(String arrondissement){
+<span class="fc" id="L56">        List&lt;String&gt; listeArrondissement = chargementArrondissementJSON();</span>
+<span class="fc" id="L57">        return listeArrondissement.contains(arrondissement);</span>
+    }
+
+    /**
+     * Cette methode retourne
+     * @param description
+     * @return vrai si la liste des types d'interventions contient la l'intevertion(la description)
+     */
+    public static boolean validerDescription(String description){
+<span class="fc" id="L66">        List&lt;String&gt; listeDescription = chargementDescriptionJSON();</span>
+
+        // si la liste description n'est pas charger
+<span class="pc bpc" id="L69" title="1 of 2 branches missed.">        if(listeDescription == null){</span>
+<span class="nc" id="L70">            chargementDescriptionJSON();</span>
+        }
+<span class="fc" id="L72">        return listeDescription.contains(description);</span>
+    }
+    /**
+     * Cette methode lit la liste des interventions dans le fichier JSON inteverntions.json
+     * et en extraire les donnees contenues
+     *
+     * @return la liste des differents types d'interventions
+     */
+    public static List&lt;String&gt; chargementDescriptionJSON(){
+
+<span class="fc" id="L82">        List&lt;String&gt; listeDescription = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L83">        try(FileReader lectureFichierJSON = new FileReader(&quot;json/interventions.json&quot;)) {</span>
+<span class="fc" id="L84">            JsonArray descriptionJSON = JsonParser.parseReader(lectureFichierJSON).getAsJsonObject().getAsJsonArray(&quot;intervention_policiere&quot;);</span>
+
+            //ajouter arrondissements dans la liste en string
+<span class="fc bfc" id="L87" title="All 2 branches covered.">            for (int i = 0; i &lt; descriptionJSON.size(); i++) {</span>
+<span class="fc" id="L88">                listeDescription.add(descriptionJSON.get(i).getAsString());</span>
+            }
+<span class="nc" id="L90">        }catch (IOException e){</span>
+<span class="nc" id="L91">            e.printStackTrace(); // gestion et trace des exceptions</span>
+
+<span class="fc" id="L93">        }</span>
+<span class="fc" id="L94">        return listeDescription;</span>
+    }
+
+    /**
+     * Cette methode lit la liste des arrondissements dans le fichiers JSON et en extraire les donnees
+     * contenues
+     *
+     * @return la liste des arrondissements
+     */
+    public static List&lt;String&gt; chargementArrondissementJSON(){
+<span class="fc" id="L104">        List&lt;String&gt; listeArrondissement = new ArrayList&lt;&gt;();</span>
+
+<span class="fc" id="L106">        try(FileReader lectureFichierJSON = new FileReader(&quot;json/arrondissements.json&quot;)) {</span>
+<span class="fc" id="L107">            JsonArray arrondissementsJSON = JsonParser.parseReader(lectureFichierJSON).getAsJsonObject().getAsJsonArray(&quot;arrondissements&quot;);</span>
+
+            //ajouter arrondissements dans la liste en string
+<span class="fc bfc" id="L110" title="All 2 branches covered.">            for (int i = 0; i &lt; arrondissementsJSON.size(); i++) {</span>
+<span class="fc" id="L111">                listeArrondissement.add(arrondissementsJSON.get(i).getAsString());</span>
+            }
+<span class="nc" id="L113">        }catch (IOException e){</span>
+<span class="nc" id="L114">            e.printStackTrace(); // gestion et trace des exceptions</span>
+
+<span class="fc" id="L116">        }</span>
+<span class="fc" id="L117">        return listeArrondissement;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>
