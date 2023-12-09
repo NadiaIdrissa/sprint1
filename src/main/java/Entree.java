@@ -1,18 +1,11 @@
 import java.io.*;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 /**
  * Cette classe sert a aller extraire les donnees contenues dans un fichier CSV  afin d'en modeliser les
  * interventions  policieres survenues dans les parcs de Montreal
  */
 public class Entree {
-
-    private BufferedReader fileReader;
-
-    public Entree(BufferedReader fileReader){
-        this.fileReader = fileReader;
-    }
 
     /**
      * Cette methode va creer une liste qui va extraire les donnees contenues dans le fichier CSV par intervention
@@ -30,16 +23,18 @@ public class Entree {
         if(!scanner.hasNext()){
             if(ProgrammePrincipal.eng){
                 System.err.println("the file is empty");
-                return donnees;
+            }else{
+                System.err.println("le fichier est vide");
             }
-           else{ System.err.println("le fichier est vide");
             return donnees; // Retourne une liste vide si le fichier est vide
-        }}
+
+        }
+
 
         // en cas d'erreur va afficher le numero de la ligne en question
         int numeroLigne = 1;
 
-        // Ajout de cette ligne pour lire la première ligne
+        //  lire la première ligne du fichier
         donnees.add(scanner.nextLine());
 
         while (scanner.hasNext()) {
@@ -48,14 +43,12 @@ public class Entree {
             //verifie si la ligne contient les 5 elements
             if(donnee.split(",").length != 5){
                 //affiche l'erreur et arret du programme
-                //throw new RuntimeException("Le format du fichier '" + nomFichier + "' à la ligne " + numeroLigne + " est incorrect.");
                 if(ProgrammePrincipal.eng){
                     System.err.println("Error in the file " + nomFichier + " at the line " + numeroLigne + " : The number of fields is incorrect.");
-                    System.exit(1);
+                }else{
+                    System.err.println("Erreur dans le fichier " + nomFichier + " à la ligne " + numeroLigne + " : Le nombre de champs est incorrect.");
                 }
-                else{
-                System.err.println("Erreur dans le fichier " + nomFichier + " à la ligne " + numeroLigne + " : Le nombre de champs est incorrect.");
-                System.exit(1);}
+                System.exit(1);
             }
 
             donnees.add(donnee);
