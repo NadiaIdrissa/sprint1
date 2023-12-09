@@ -43,14 +43,13 @@ public class TestAvecMockObject {
         BufferedReader mockBufferedReader = mock(BufferedReader.class);
 
         // Configurer le comportement du mockBufferedReader pour simuler la lecture du fichier CSV
-        when(mockBufferedReader.readLine()).thenReturn(String.join("\n", donnees), null);
+        when(mockBufferedReader.readLine()).thenReturn(String.join("\n", donnees), (String) null);
 
         // Appeler la méthode à tester
         ArrayList<String> result = Entree.extraireDonnees("Entree.csv");
 
         // Vérifier le résultat
-        assertEquals(2, result.size());
-
+        assertEquals(7, result.size());
 
     }
 

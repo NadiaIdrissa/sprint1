@@ -117,9 +117,10 @@ public class EntreeTest {
     @Test
     void testExtraireDonneesCasStandard() throws IOException {
         // Créez un fichier temporaire avec des données correctes
-        File entreeFile = new File("Entree.csv");
+        File entreeFile = new File("TestEntreeStandard.csv");
         try (FileWriter writer = new FileWriter(entreeFile)) {
             // Ajoutez des lignes de données correctes
+            writer.write("Date,Heure,Parc,Arrondissement,Description\n");
             writer.write("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues\n");
             writer.write("2023-09-02,15:30,Parc Jean,Outremont,Cambriolage\n");
             // Ajoutez autant de lignes que nécessaire pour votre cas de test
@@ -130,9 +131,10 @@ public class EntreeTest {
 
         // Ajoutez des assertions en fonction de votre logique
         assertFalse(result.isEmpty());
-        assertEquals(2, result.size()); // Vérifiez le nombre d'interventions extraites
-        assertEquals("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues", result.get(0));
-        assertEquals("2023-09-02,15:30,Parc Jean,Outremont,Cambriolage", result.get(1));
+        assertEquals(3, result.size()); // Vérifiez le nombre d'interventions extraites
+        assertEquals("Date,Heure,Parc,Arrondissement,Description", result.get(0));
+        assertEquals("2023-09-01,20:41,Parc Camille,Ahuntsic-Cartierville,Vente de drogues", result.get(1));
+        assertEquals("2023-09-02,15:30,Parc Jean,Outremont,Cambriolage", result.get(2));
     }
 
 
