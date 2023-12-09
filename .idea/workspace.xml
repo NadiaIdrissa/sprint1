@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2126c93-d665-4ab8-bc00-7de574a9bdab" name="Changes" comment="aide aux parametres en anglais">
-      <change beforePath="$PROJECT_DIR$/Entree.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Entree.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sortie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Sortie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/EntreeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/EntreeTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SortieTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SortieTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-EntreeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-EntreeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SortieTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SortieTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestAvecMockObject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestAvecMockObject.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestFonctionnel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestFonctionnel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestAvecMockObject.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestAvecMockObject.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestFonctionnel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestFonctionnel.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +110,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAvecMockObject">
+  <component name="RunManager" selected="Application.ProgrammePrincipal">
     <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
       <module name="sprint1" />
@@ -110,7 +120,7 @@
       </method>
     </configuration>
     <configuration name="Sortie.csv" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Sortie" />
+      <option name="MAIN_CLASS_NAME" value="Sortie.csv" />
       <module name="sprint1" />
       <method v="2">
         <option name="Make" enabled="true" />
